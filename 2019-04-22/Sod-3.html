@@ -1,0 +1,65 @@
+
+<HTML>
+<HEAD>
+<TITLE>2019-04-22 / Sod-3</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<LINK REL="stylesheet" TYPE="text/css" HREF="tests.css">
+</HEAD>
+<BODY>
+<div id="box">
+<table style="width: 100%" class="head"><br><tr><td><< <a href="Sod-2d.html">previous test</td><td class="alignright"><a href="Sod_restart.html">next test >></td></tr></table>
+<center><h1><a href="index.html">2019-04-22</a> / Sod-3</h1></center><ul>
+<li>Build/Test information:
+<ul>
+<li>Build directory: Exec/RegTests/Sod/
+</li>
+<li>Parallel run
+<ul>
+<li>MPI numprocs = 2
+</li>
+<li>OpenMP numthreads = 2
+</li></ul></li>
+<li>Files:
+<ul>
+<li>input file: <a href="Sod-3.inputs-sod-rt3">inputs-sod-rt3</a>
+</li>
+<li>probin file: <a href="Sod-3.probin-sod-z">probin-sod-z</a>
+</li></ul></li>
+<li>Dimensionality: 3
+</li></ul></li>
+<li>Compilation:
+<ul>
+<li><h3 class="passed">Successful</h3>
+</li>
+<li>Compilation time: 28.110 s
+</li>
+<li>Compilation command:<br><tt>make -j24 AMREX_HOME=/projects/ecp/combustion/pelec-testing/amrex/  DEBUG=FALSE USE_ACC=FALSE USE_MPI=TRUE USE_OMP=TRUE DIM=3   COMP=g++ TEST=TRUE USE_ASSERTION=TRUE </tt>
+</li>
+<li><a href="Sod-3.make.out">make output</a>
+</li></ul></li>
+<li>Execution:
+<ul>
+<li>Execution time: 4.026 s
+</li>
+<li>Execution command:<br><tt>mpiexec -n 2 ./PeleC3d.gnu.TEST.MPI.OMP.ex inputs-sod-rt3 amr.plot_file=Sod-3_plt amr.check_file=Sod-3_chk amr.checkpoint_files_output=0  </tt>
+</li>
+<li><a href="Sod-3.run.out">execution output</a>
+</li>
+<li><a href="Sod-3.err.out">execution stderr</a>
+</li></ul></li>
+<li>Backtraces:
+<ul>
+<li><a href="Sod-3.Backtrace.1.0">Sod-3.Backtrace.1.0</a>
+</li>
+<li><a href="Sod-3.Backtrace.0.0">Sod-3.Backtrace.0.0</a>
+</li></ul></li>
+<li>Comparison: 
+<ul>
+<li><h3 class="failed">Failed</h3>
+</li></ul></li>
+</ul>
+</table>
+</div>
+</div>
+</div></body>
+</html>

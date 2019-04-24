@@ -1,0 +1,103 @@
+===============================================================================
+ PeleC Job Information
+===============================================================================
+job name: 
+
+inputs file: inputs_2d-rt1
+
+number of MPI processes: 4
+
+CPU time used since start of simulation (CPU-hours): 0.00438767
+
+===============================================================================
+ Plotfile Information
+===============================================================================
+output data / time: Wed Apr 24 06:11:26 2019
+output dir:         /projects/ecp/combustion/pelec-testing/PeleC-tests/2019-04-24/tg-vortex-2d
+
+
+===============================================================================
+ Build Information
+===============================================================================
+build date:    2019-04-24 06:10:36.544717
+build machine: Linux rhodes.hpc.nrel.gov 3.10.0-693.17.1.el7.x86_64 #1 SMP Thu Jan 25 20:13:58 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+build dir:     /projects/ecp/combustion/pelec-testing/PeleC/Exec/RegTests/TG
+AMReX dir:     /projects/ecp/combustion/pelec-testing/amrex/
+
+COMP:          g++
+COMP version:  7.3.0
+FCOMP:         
+FCOMP version: 
+
+EOS: /projects/ecp/combustion/pelec-testing/PelePhysics/Eos/GammaLaw
+REACTIONS: /projects/ecp/combustion/pelec-testing/PelePhysics/Reactions/Null
+TRANSPORT: /projects/ecp/combustion/pelec-testing/PelePhysics/Transport
+
+PeleC       git hash: dd15090
+AMReX       git hash: 19.04.2-290-g9ed24023d
+PelePhysics git hash: 5ce24f2
+
+
+===============================================================================
+ Grid Information
+===============================================================================
+ level: 0
+   number of boxes = 4
+   maximum zones   = 128 128 
+
+ Boundary conditions
+   -x: Interior
+   +x: Interior
+   -y: Interior
+   +y: Interior
+
+
+===============================================================================
+ Species Information
+===============================================================================
+ index                         name              A              Z
+--------------------------------------------------------------------------------
+
+
+===============================================================================
+ Inputs File Parameters
+===============================================================================
+max_step = 100000000
+stop_time = 0.0018336339443081453
+max_step = 300
+geometry.is_periodic = 1 1
+geometry.coord_sys = 0
+geometry.prob_lo = -1.0 -1.0
+geometry.prob_hi = 1.0 1.0
+amr.n_cell = 128 128
+pelec.lo_bc = Interior Interior
+pelec.hi_bc = Interior Interior
+pelec.do_hydro = 1
+pelec.diffuse_vel = 1
+pelec.diffuse_temp = 1
+pelec.do_react = 0
+pelec.do_grav(nvals = 1)  :: [0]
+pelec.allow_negative_energy = 0
+pelec.cfl = 0.9
+pelec.init_shrink = 0.3
+pelec.change_max = 1.1
+pelec.dt_cutoff = 5.e-20
+pelec.sum_interval = 1
+pelec.v = 1
+amr.v = 1
+amr.data_log = datlog
+amr.max_level = 0
+amr.ref_ratio(nvals = 4)  :: [2, 2, 2, 2]
+amr.regrid_int(nvals = 4)  :: [2, 2, 2, 2]
+amr.blocking_factor = 4
+amr.max_grid_size = 128
+amr.n_error_buf = 2 2 2 2
+amr.check_file = chk
+amr.check_int = 100
+amr.plot_file = plt
+amr.plot_int = 100
+amr.derive_plot_vars = density xmom ymom zmom eden Temp pressure
+amr.probin_file = probin
+amr.plot_file = tg-vortex-2d_plt
+amr.check_file = tg-vortex-2d_chk
+amr.checkpoint_files_output = 0

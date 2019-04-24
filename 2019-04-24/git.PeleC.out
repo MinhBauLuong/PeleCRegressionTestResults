@@ -1,0 +1,373 @@
+Already up to date.
+From https://github.com/AMReX-Combustion/PeleC
+   2c41598..8769502  gpu        -> origin/gpu
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+From https://github.com/AMReX-Combustion/PeleC
+   b430d22..f441a60  Emmanuel/HYBRID_PPM_WENO -> origin/Emmanuel/HYBRID_PPM_WENO
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating c676ea7..4f3cd59
+Fast-forward
+ Docs/sphinx_doc/BoundaryConditions.rst  |   2 +-
+ Docs/sphinx_doc/EB.rst                  |  11 +++
+ Docs/sphinx_doc/InputFiles.rst          |   1 -
+ Docs/sphinx_doc/Introduction.rst        |  19 ++++
+ Docs/sphinx_doc/LES.rst                 |  11 +++
+ Docs/sphinx_doc/PelePhysics.rst         |  13 +++
+ Docs/sphinx_doc/geometry/geometry.rst   |  14 +--
+ Docs/sphinx_doc/index.rst               |  11 ++-
+ Exec/Tutorials/EB_OblqShock/GNUmakefile |   2 +-
+ Source/Src_1d/ppm_1d.f90                |   4 +
+ Source/Src_2d/ppm_2d.f90                |   8 ++
+ Source/Src_3d/ppm_3d.f90                |  18 ++++
+ Source/Src_nd/weno.f90                  | 150 +++++++++++++++++++++++++++++++-
+ 13 files changed, 249 insertions(+), 15 deletions(-)
+ create mode 100644 Docs/sphinx_doc/EB.rst
+ create mode 100644 Docs/sphinx_doc/LES.rst
+ create mode 100644 Docs/sphinx_doc/PelePhysics.rst
+From https://github.com/AMReX-Combustion/PeleC
+   c676ea7..4f3cd59  development       -> origin/development
+ * [new branch]      Emmanuel/docuthon -> origin/Emmanuel/docuthon
+ * [new branch]      docathon_rg       -> origin/docathon_rg
+ * [new branch]      docuthon          -> origin/docuthon
+   8769502..46d6f5f  gpu               -> origin/gpu
+   9b7d9e6..c32cf5b  hari/doc          -> origin/hari/doc
+ * [new branch]      marc/docthon      -> origin/marc/docthon
+ * [new branch]      mergePeleC-MP     -> origin/mergePeleC-MP
+ * [new branch]      rgrout/docuthon   -> origin/rgrout/docuthon
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 4f3cd59..5f2201e
+Fast-forward
+ Exec/Make.PeleC                    |  15 ++-
+ Source/PeleC.H                     |   5 +
+ Source/PeleC.cpp                   |   4 +
+ Source/PeleCParticles.cpp          | 210 +++++++++++++++++++------------------
+ Source/PeleC_advance.cpp           |  42 +++++++-
+ Source/PeleC_io.cpp                |  47 +++++----
+ Source/PeleC_setup.cpp             |   3 +-
+ Source/TurbInflow/turbinflow.cpp   |  35 +++----
+ Source/TurbInflow/turbinflow_f.f90 |  34 ++++--
+ 9 files changed, 230 insertions(+), 165 deletions(-)
+From https://github.com/AMReX-Combustion/PeleC
+   4f3cd59..5f2201e  development       -> origin/development
+   40dc424..225835e  Emmanuel/docuthon -> origin/Emmanuel/docuthon
+ * [new branch]      PeleC_merge_devl  -> origin/PeleC_merge_devl
+   7ab72e9..c9ede32  docuthon          -> origin/docuthon
+   46d6f5f..7f015bb  gpu               -> origin/gpu
+   c32cf5b..3a8afa9  hari/doc          -> origin/hari/doc
+   2ebf9d1..cd3b989  mergePeleC-MP     -> origin/mergePeleC-MP
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 5f2201e..7b7716b
+Fast-forward
+ Docs/sphinx_doc/Algorithms.rst                 | 511 +++++++++++++++++++++++--
+ Docs/sphinx_doc/BoundaryConditions.rst         | 121 +++---
+ Docs/sphinx_doc/E3D_mol_ppm.png                | Bin 0 -> 16928 bytes
+ Docs/sphinx_doc/EB.rst                         |  11 -
+ Docs/sphinx_doc/Equations.rst                  | 166 ++++++++
+ Docs/sphinx_doc/GettingStarted.rst             |  18 +-
+ Docs/sphinx_doc/InputFiles.rst                 |   9 +-
+ Docs/sphinx_doc/Introduction.rst               |   6 +-
+ Docs/sphinx_doc/KE_mol_ppm.png                 | Bin 0 -> 17844 bytes
+ Docs/sphinx_doc/LES.rst                        |   4 +-
+ Docs/sphinx_doc/PeleC_doxygen.rst              |   8 -
+ Docs/sphinx_doc/PelePhysics.rst                | 281 +++++++++++++-
+ Docs/sphinx_doc/VandV.rst                      |  11 +
+ Docs/sphinx_doc/boxlib_bits.rst                | 295 +++++++-------
+ Docs/sphinx_doc/conf.py                        |   4 +-
+ Docs/sphinx_doc/dissipation_mol_ppm.png        | Bin 0 -> 8502 bytes
+ Docs/sphinx_doc/geometry/EB.rst                | 334 ++++++++++++++++
+ Docs/sphinx_doc/geometry/EB_AVfrac.png         | Bin 0 -> 8932 bytes
+ Docs/sphinx_doc/geometry/EB_F.png              | Bin 0 -> 8584 bytes
+ Docs/sphinx_doc/geometry/EB_PistonBowl.png     | Bin 0 -> 57474 bytes
+ Docs/sphinx_doc/geometry/EB_Struct.png         | Bin 0 -> 292769 bytes
+ Docs/sphinx_doc/geometry/EB_re_redist.png      | Bin 0 -> 11868 bytes
+ Docs/sphinx_doc/geometry/EB_sample.png         | Bin 0 -> 201408 bytes
+ Docs/sphinx_doc/geometry/amrex_geometry.rst    |   4 -
+ Docs/sphinx_doc/geometry/geometry.rst          | 414 --------------------
+ Docs/sphinx_doc/geometry/geometry_creation.rst | 215 -----------
+ Docs/sphinx_doc/geometry/geometry_init.rst     | 158 ++++++++
+ Docs/sphinx_doc/index.rst                      |  14 +-
+ Docs/sphinx_doc/tutorials.rst                  |  25 ++
+ Docs/sphinx_doc/validation/validation.rst      |  98 ++++-
+ Docs/sphinx_doc/verification/verification.rst  | 130 ++++++-
+ Docs/sphinx_doc/writing_documentation.rst      |  26 --
+ Exec/Make.PeleC                                |   8 +-
+ Exec/RegTests/HIT/gen_hit_ic.py                | 243 +++++++-----
+ README.rst                                     |  21 +-
+ 35 files changed, 2043 insertions(+), 1092 deletions(-)
+ create mode 100644 Docs/sphinx_doc/E3D_mol_ppm.png
+ delete mode 100644 Docs/sphinx_doc/EB.rst
+ create mode 100644 Docs/sphinx_doc/Equations.rst
+ create mode 100644 Docs/sphinx_doc/KE_mol_ppm.png
+ delete mode 100644 Docs/sphinx_doc/PeleC_doxygen.rst
+ create mode 100644 Docs/sphinx_doc/VandV.rst
+ create mode 100644 Docs/sphinx_doc/dissipation_mol_ppm.png
+ create mode 100644 Docs/sphinx_doc/geometry/EB.rst
+ create mode 100644 Docs/sphinx_doc/geometry/EB_AVfrac.png
+ create mode 100644 Docs/sphinx_doc/geometry/EB_F.png
+ create mode 100644 Docs/sphinx_doc/geometry/EB_PistonBowl.png
+ create mode 100644 Docs/sphinx_doc/geometry/EB_Struct.png
+ create mode 100644 Docs/sphinx_doc/geometry/EB_re_redist.png
+ create mode 100644 Docs/sphinx_doc/geometry/EB_sample.png
+ delete mode 100644 Docs/sphinx_doc/geometry/geometry.rst
+ delete mode 100644 Docs/sphinx_doc/geometry/geometry_creation.rst
+ create mode 100644 Docs/sphinx_doc/geometry/geometry_init.rst
+ create mode 100644 Docs/sphinx_doc/tutorials.rst
+ delete mode 100644 Docs/sphinx_doc/writing_documentation.rst
+From https://github.com/AMReX-Combustion/PeleC
+   5f2201e..7b7716b  development -> origin/development
+   7f015bb..f2923db  gpu         -> origin/gpu
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 7b7716b..473a344
+Fast-forward
+ Docs/sphinx_doc/PelePhysics.rst | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+From https://github.com/AMReX-Combustion/PeleC
+   7b7716b..473a344  development   -> origin/development
+ * [new branch]      cvode_C_merge -> origin/cvode_C_merge
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+From https://github.com/AMReX-Combustion/PeleC
+   47dd49d..baf6c0d  acc_test   -> origin/acc_test
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 473a344..2926aef
+Fast-forward
+ Exec/RegTests/PMF/probin-regt  |  4 ++++
+ Exec/RegTests/Sod/probin-sod-x |  3 +++
+ Exec/RegTests/Sod/probin-sod-y |  4 ++++
+ Exec/RegTests/Sod/probin-sod-z |  4 ++++
+ Source/Src_nd/PeleC_nd.F90     |  2 +-
+ Source/Src_nd/React_nd.F90     | 53 +++++++++++++++++++-----------------------
+ 6 files changed, 40 insertions(+), 30 deletions(-)
+From https://github.com/AMReX-Combustion/PeleC
+   473a344..2926aef  development       -> origin/development
+   f441a60..1ff1fe7  Emmanuel/HYBRID_PPM_WENO -> origin/Emmanuel/HYBRID_PPM_WENO
+ * [new branch]      addregspray_PeleC -> origin/addregspray_PeleC
+   4107aaa..c5505df  cvode_C_merge     -> origin/cvode_C_merge
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 2926aef..6e9a5a5
+Fast-forward
+ Exec/RegTests/SprayTests/amr_follow/GNUmakefile    |  50 ++++++
+ Exec/RegTests/SprayTests/amr_follow/Make.package   |   6 +
+ Exec/RegTests/SprayTests/amr_follow/Prob_nd.F90    | 187 +++++++++++++++++++++
+ Exec/RegTests/SprayTests/amr_follow/README.md      |   1 +
+ Exec/RegTests/SprayTests/amr_follow/extern.f90     |  98 +++++++++++
+ Exec/RegTests/SprayTests/amr_follow/inputs_2d      | 101 +++++++++++
+ .../SprayTests/amr_follow/particle_tagging_nd.F90  |  62 +++++++
+ Exec/RegTests/SprayTests/amr_follow/probdata.f90   |   7 +
+ Exec/RegTests/SprayTests/amr_follow/probin         |  22 +++
+ Exec/RegTests/SprayTests/amr_follow/sprayfile      |   3 +
+ Testing/Regression/PeleC-tests.ini                 |  13 ++
+ 11 files changed, 550 insertions(+)
+ create mode 100644 Exec/RegTests/SprayTests/amr_follow/GNUmakefile
+ create mode 100644 Exec/RegTests/SprayTests/amr_follow/Make.package
+ create mode 100644 Exec/RegTests/SprayTests/amr_follow/Prob_nd.F90
+ create mode 100644 Exec/RegTests/SprayTests/amr_follow/README.md
+ create mode 100644 Exec/RegTests/SprayTests/amr_follow/extern.f90
+ create mode 100644 Exec/RegTests/SprayTests/amr_follow/inputs_2d
+ create mode 100644 Exec/RegTests/SprayTests/amr_follow/particle_tagging_nd.F90
+ create mode 100644 Exec/RegTests/SprayTests/amr_follow/probdata.f90
+ create mode 100644 Exec/RegTests/SprayTests/amr_follow/probin
+ create mode 100644 Exec/RegTests/SprayTests/amr_follow/sprayfile
+From https://github.com/AMReX-Combustion/PeleC
+   2926aef..6e9a5a5  development -> origin/development
+   baf6c0d..45cde19  acc_test    -> origin/acc_test
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Already up to date.
+Already up to date.
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+From https://github.com/AMReX-Combustion/PeleC
+   45cde19..9a4697e  acc_test   -> origin/acc_test
+   f2923db..cc71be3  gpu        -> origin/gpu
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+From https://github.com/AMReX-Combustion/PeleC
+   cc71be3..531b539  gpu        -> origin/gpu
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 6e9a5a5..b0e9972
+Fast-forward
+ Docs/sphinx_doc/PelePhysics.rst | 105 +++++++++++++++++++++++++++++++++++-----
+ 1 file changed, 94 insertions(+), 11 deletions(-)
+From https://github.com/AMReX-Combustion/PeleC
+   6e9a5a5..b0e9972  development -> origin/development
+   531b539..1adcb94  gpu         -> origin/gpu
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+From https://github.com/AMReX-Combustion/PeleC
+   1adcb94..ed8b412  gpu        -> origin/gpu
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating b0e9972..9ce5f31
+Fast-forward
+ Exec/RegTests/SprayTests/amr_follow/extern.f90 | 98 --------------------------
+ Source/Src_nd/weno.f90                         |  4 +-
+ Source/_cpp_parameters                         |  8 ++-
+ 3 files changed, 8 insertions(+), 102 deletions(-)
+ delete mode 100644 Exec/RegTests/SprayTests/amr_follow/extern.f90
+From https://github.com/AMReX-Combustion/PeleC
+   b0e9972..9ce5f31  development -> origin/development
+   1ff1fe7..e3df4b3  Emmanuel/HYBRID_PPM_WENO -> origin/Emmanuel/HYBRID_PPM_WENO
+   ed8b412..15ffa83  gpu         -> origin/gpu
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+From https://github.com/AMReX-Combustion/PeleC
+ * [new branch]      ctest      -> origin/ctest
+ * [new branch]      pgi_issue  -> origin/pgi_issue
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+From https://github.com/AMReX-Combustion/PeleC
+   791f296..df78c1f  ctest      -> origin/ctest
+   15ffa83..1379bc4  gpu        -> origin/gpu
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+From https://github.com/AMReX-Combustion/PeleC
+   1379bc4..2e29b44  gpu        -> origin/gpu
+   ff8aac7..71cacd3  master     -> origin/master
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+From https://github.com/AMReX-Combustion/PeleC
+   df78c1f..7378230  ctest      -> origin/ctest
+   2e29b44..7db2f0f  gpu        -> origin/gpu
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+From https://github.com/AMReX-Combustion/PeleC
+   7378230..e65a945  ctest      -> origin/ctest
+   7db2f0f..71e5ed6  gpu        -> origin/gpu
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+From https://github.com/AMReX-Combustion/PeleC
+   e65a945..14fc27a  ctest      -> origin/ctest
+ * [new branch]      ctest_pr   -> origin/ctest_pr
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+From https://github.com/AMReX-Combustion/PeleC
+   71e5ed6..14308f9  gpu        -> origin/gpu
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+From https://github.com/AMReX-Combustion/PeleC
+   14308f9..7e691b1  gpu        -> origin/gpu
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+From https://github.com/AMReX-Combustion/PeleC
+   7e691b1..05c80d1  gpu        -> origin/gpu
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+From https://github.com/AMReX-Combustion/PeleC
+   05c80d1..7d09382  gpu        -> origin/gpu
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+From https://github.com/AMReX-Combustion/PeleC
+ * [new branch]      hari/explicit_react -> origin/hari/explicit_react
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 9ce5f31..dd15090
+Fast-forward
+ Source/PeleC_init_eb.cpp           | 15 +++++++++------
+ Source/Src_3d/PeleC_init_eb_3d.f90 |  7 ++++++-
+ 2 files changed, 15 insertions(+), 7 deletions(-)
+From https://github.com/AMReX-Combustion/PeleC
+   9ce5f31..dd15090  development        -> origin/development
+ * [new branch]      least_squares_diff -> origin/least_squares_diff

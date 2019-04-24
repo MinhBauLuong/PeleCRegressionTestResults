@@ -1,0 +1,1415 @@
+Updating e72cacca3..8b85de9e0
+Fast-forward
+ Tools/CMake/AMReXConfig.cmake.in | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+From https://github.com/AMReX-Codes/amrex
+   e72cacca3..8b85de9e0  development -> origin/development
+   1a91638fd..7b49f3013  gh-pages    -> origin/gh-pages
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 8b85de9e0..1e5ca6481
+Fast-forward
+ Src/Base/AMReX_Geometry.H | 40 ++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 40 insertions(+)
+From https://github.com/AMReX-Codes/amrex
+   8b85de9e0..1e5ca6481  development -> origin/development
+   7b49f3013..4a492ca26  gh-pages    -> origin/gh-pages
+   1ab0eef9e..b41cebe4b  mr/cmake    -> origin/mr/cmake
+ * [new branch]          regrid_only -> origin/regrid_only
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 1e5ca6481..79a9a2c0a
+Fast-forward
+ Src/Amr/AMReX_Amr.H                                |  2 +-
+ Src/Amr/AMReX_Amr.cpp                              | 18 +++--
+ Src/Base/AMReX_CudaAllocators.H                    |  1 +
+ Src/LinearSolvers/MLMG/AMReX_MLEBABecLap.cpp       |  2 -
+ Src/LinearSolvers/MLMG/AMReX_MLEBABecLap_2d.F90    | 29 ++------
+ Src/LinearSolvers/MLMG/AMReX_MLEBABecLap_3d.F90    | 39 ++--------
+ Src/LinearSolvers/MLMG/AMReX_MLEBABecLap_F.H       |  3 +-
+ Tests/GPU/Test/main.cpp                            | 43 ++++++-----
+ Tests/GPU/TestB/main.cpp                           | 19 +++--
+ Tests/GPU/TestC/main.cpp                           | 22 +++---
+ .../Exec/SingleVortex/GNUmakefile                  |  1 +
+ .../GPU/Advection_AmrCore/Source/AmrCoreAdv.cpp    | 85 ++++++++++++++--------
+ 12 files changed, 126 insertions(+), 138 deletions(-)
+From https://github.com/AMReX-Codes/amrex
+   1e5ca6481..79a9a2c0a  development -> origin/development
+   4a492ca26..aa486a40d  gh-pages    -> origin/gh-pages
+   b41cebe4b..5b628078c  mr/cmake    -> origin/mr/cmake
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+From https://github.com/AMReX-Codes/amrex
+ * [new branch]          gpu_bc     -> origin/gpu_bc
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 79a9a2c0a..f12504a91
+Fast-forward
+ Src/Amr/AMReX_StateData.cpp   |  6 ++++++
+ Src/Base/AMReX_CudaDevice.H   |  1 +
+ Src/Base/AMReX_CudaDevice.cpp | 37 +++++++++++++++++++++++++++++++++----
+ Src/Base/AMReX_filcc_mod.F90  | 19 +++++++++++++++++++
+ Src/Base/Make.package         |  3 ---
+ Tools/GNUMake/Make.rules      | 26 +++++++++++++++++++++-----
+ 6 files changed, 80 insertions(+), 12 deletions(-)
+From https://github.com/AMReX-Codes/amrex
+   79a9a2c0a..f12504a91  development -> origin/development
+   aa486a40d..e8e439cc6  gh-pages    -> origin/gh-pages
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating f12504a91..0cd354416
+Fast-forward
+ Docs/sphinx_documentation/source/Basics.rst        | 12 ++--
+ Tests/GPU/Test/main.cpp                            |  8 +--
+ Tests/GPU/TestB/main.cpp                           |  4 +-
+ Tests/GPU/TestC/main.cpp                           |  7 +--
+ .../GPU/Advection_AmrCore/Exec/SingleVortex/Prob.H |  6 +-
+ .../Exec/SingleVortex/face_velocity.H              | 22 +++----
+ .../GPU/Advection_AmrCore/Source/Src_3d/Adv_3d.H   | 24 ++++----
+ .../Source/Src_3d/compute_flux_3d.H                | 72 +++++++++++-----------
+ .../GPU/Advection_AmrCore/Source/Src_3d/slope_3d.H | 36 +++++------
+ 9 files changed, 96 insertions(+), 95 deletions(-)
+From https://github.com/AMReX-Codes/amrex
+   f12504a91..0cd354416  development -> origin/development
+   e8e439cc6..7f7e69e14  gh-pages    -> origin/gh-pages
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 0cd354416..e24c918b9
+Fast-forward
+ Src/CMakeLists.txt                          |  3 ++
+ Src/Extern/Conduit/CMakeLists.txt           |  3 ++
+ Tools/CMake/AMReXConfig.cmake.in            |  3 ++
+ Tools/CMake/AMReX_Config.cmake              |  5 +++
+ Tools/CMake/AMReX_Defines.cmake             |  9 +++-
+ Tools/CMake/AMReX_Options.cmake             | 13 ++++++
+ Tools/CMake/AMReX_SetupThirdpartyLibs.cmake | 65 +++++++++++++++++++++++++++++
+ Tools/libamrex/mkconfig.py                  |  4 ++
+ 8 files changed, 104 insertions(+), 1 deletion(-)
+ create mode 100644 Src/Extern/Conduit/CMakeLists.txt
+ create mode 100644 Tools/CMake/AMReX_SetupThirdpartyLibs.cmake
+From https://github.com/AMReX-Codes/amrex
+   0cd354416..e24c918b9  development -> origin/development
+   7f7e69e14..72dfcdfda  gh-pages    -> origin/gh-pages
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating e24c918b9..378071778
+Fast-forward
+ CMakeLists.txt                                     |   3 +-
+ Docs/sphinx_documentation/source/BuildingAMReX.rst |   2 +
+ Src/CMakeLists.txt                                 |   4 +
+ Src/Extern/SUNDIALS3/CMakeLists.txt                |  32 +++
+ Tools/CMake/AMReXConfig.cmake.in                   |  13 ++
+ Tools/CMake/AMReX_Options.cmake                    |   6 +
+ ...yLibs.cmake => AMReX_SetupThirdPartyLibs.cmake} |   0
+ Tools/CMake/FindSUNDIALS.cmake                     | 134 +++++++++++
+ Tutorials/CMakeLists.txt                           |   2 +-
+ .../EX1_SERIAL_NVEC/CMakeLists.txt                 |  41 ++++
+ .../SUNDIALS3_cppversion/EX1_SERIAL_NVEC/main.cpp  |   8 -
+ .../CVODE/SUNDIALS3_finterface/EX1/CMakeLists.txt  |  43 ++++
+ Tutorials/CVODE/SUNDIALS3_finterface/EX1/main.cpp  | 260 ++++++++++-----------
+ 13 files changed, 408 insertions(+), 140 deletions(-)
+ create mode 100644 Src/Extern/SUNDIALS3/CMakeLists.txt
+ rename Tools/CMake/{AMReX_SetupThirdpartyLibs.cmake => AMReX_SetupThirdPartyLibs.cmake} (100%)
+ create mode 100644 Tools/CMake/FindSUNDIALS.cmake
+ create mode 100644 Tutorials/CVODE/SUNDIALS3_cppversion/EX1_SERIAL_NVEC/CMakeLists.txt
+ create mode 100644 Tutorials/CVODE/SUNDIALS3_finterface/EX1/CMakeLists.txt
+From https://github.com/AMReX-Codes/amrex
+   e24c918b9..378071778  development -> origin/development
+   72dfcdfda..9c7af680c  gh-pages    -> origin/gh-pages
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 378071778..ff5b21f55
+Fast-forward
+ Tools/CMake/AMReX_Config.cmake                     |  10 +-
+ Tutorials/Amr/Advection_AmrCore/CMakeLists.txt     |   7 -
+ Tutorials/Basic/HeatEquation_EX1_C/CMakeLists.txt  |   7 -
+ .../GPU/Advection_AmrCore/Exec/SingleVortex/Prob.H |   1 -
+ .../Exec/SingleVortex/face_velocity.H              |  58 ++----
+ .../GPU/Advection_AmrCore/Source/AmrCoreAdv.cpp    | 177 +++++++---------
+ .../GPU/Advection_AmrCore/Source/Src_3d/Adv_3d.H   |  65 ++----
+ .../Source/Src_3d/compute_flux_3d.H                | 229 ++++++---------------
+ 8 files changed, 172 insertions(+), 382 deletions(-)
+From https://github.com/AMReX-Codes/amrex
+   378071778..ff5b21f55  development       -> origin/development
+   9c7af680c..c0e25b105  gh-pages          -> origin/gh-pages
+ * [new branch]          kngott/cudaGraphs -> origin/kngott/cudaGraphs
+ * [new branch]          weiqun/noexcept   -> origin/weiqun/noexcept
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+From https://github.com/AMReX-Codes/amrex
+   fc2494f4d..a204e6b58  kngott/cudaGraphs -> origin/kngott/cudaGraphs
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating ff5b21f55..cc30b10c2
+Fast-forward
+ Docs/JOSS/Makefile                                 |  43 ++
+ Docs/JOSS/paper.bib                                |  54 ++
+ Docs/JOSS/paper.md                                 | 198 +++++++
+ .../source/BuildingAMReX_Chapter.rst               |   4 +
+ Docs/sphinx_documentation/source/ForkJoin.rst      |  57 ++
+ .../source/figs/fork_join_tasks.png                | Bin 0 -> 40990 bytes
+ .../source/figs/nested_fork_join_tasks.png         | Bin 0 -> 59051 bytes
+ Docs/sphinx_documentation/source/index.rst         |   3 +-
+ Src/Amr/AMReX_Amr.H                                | 124 ++--
+ Src/Amr/AMReX_Amr.cpp                              |  38 +-
+ Src/Amr/AMReX_AmrLevel.H                           |  68 ++-
+ Src/Amr/AMReX_AmrLevel.cpp                         |  22 +-
+ Src/Amr/AMReX_AuxBoundaryData.H                    |  28 +-
+ Src/Amr/AMReX_AuxBoundaryData.cpp                  |   2 +-
+ Src/Amr/AMReX_Derive.H                             |  38 +-
+ Src/Amr/AMReX_Derive.cpp                           |  28 +-
+ Src/Amr/AMReX_StateData.H                          |  34 +-
+ Src/Amr/AMReX_StateData.cpp                        |   2 +-
+ Src/Amr/AMReX_StateDescriptor.H                    |  76 ++-
+ Src/Amr/AMReX_StateDescriptor.cpp                  |  36 +-
+ Src/AmrCore/AMReX_AmrCore.H                        |   6 +-
+ Src/AmrCore/AMReX_AmrCore.cpp                      |   2 +-
+ Src/AmrCore/AMReX_AmrMesh.H                        |  84 +--
+ Src/AmrCore/AMReX_AmrMesh.cpp                      |  14 +-
+ Src/AmrCore/AMReX_AmrParGDB.H                      |   2 +-
+ Src/AmrCore/AMReX_Cluster.H                        |  16 +-
+ Src/AmrCore/AMReX_Cluster.cpp                      |  12 +-
+ Src/AmrCore/AMReX_ErrorList.H                      |  12 +-
+ Src/AmrCore/AMReX_ErrorList.cpp                    |  10 +-
+ Src/AmrCore/AMReX_FluxReg_1D_C.H                   |   6 +-
+ Src/AmrCore/AMReX_FluxReg_2D_C.H                   |   6 +-
+ Src/AmrCore/AMReX_FluxReg_3D_C.H                   |   6 +-
+ Src/AmrCore/AMReX_FluxRegister.H                   |  24 +-
+ Src/AmrCore/AMReX_FluxRegister.cpp                 |  16 +-
+ Src/AmrCore/AMReX_Interp_1D_C.H                    |  20 +-
+ Src/AmrCore/AMReX_Interp_2D_C.H                    |  20 +-
+ Src/AmrCore/AMReX_Interp_3D_C.H                    |  20 +-
+ Src/AmrCore/AMReX_TagBox.H                         |  28 +-
+ Src/AmrCore/AMReX_TagBox.cpp                       |  31 +-
+ Src/Base/AMReX.H                                   |   4 +-
+ Src/Base/AMReX.cpp                                 |   4 +-
+ Src/Base/AMReX_Arena.H                             |  12 +-
+ Src/Base/AMReX_Array.H                             |  30 +-
+ Src/Base/AMReX_BCRec.H                             |  36 +-
+ Src/Base/AMReX_BCRec.cpp                           |   2 +-
+ Src/Base/AMReX_BaseFab.H                           | 654 ++++++++++-----------
+ Src/Base/AMReX_BaseFab.cpp                         |  12 +-
+ Src/Base/AMReX_BaseFabUtility.H                    |   2 +-
+ Src/Base/AMReX_Box.H                               | 305 +++++-----
+ Src/Base/AMReX_BoxArray.H                          |  45 +-
+ Src/Base/AMReX_BoxArray.cpp                        |  16 +-
+ Src/Base/AMReX_BoxIterator.H                       |  40 +-
+ Src/Base/AMReX_BoxIterator.cpp                     |   4 +-
+ Src/Base/AMReX_BoxList.H                           |  40 +-
+ Src/Base/AMReX_BoxList.cpp                         |  12 +-
+ Src/Base/AMReX_CArena.H                            |  20 +-
+ Src/Base/AMReX_CArena.cpp                          |   2 +-
+ Src/Base/AMReX_COORDSYS_1D_C.H                     |   6 +-
+ Src/Base/AMReX_COORDSYS_2D_C.H                     |   6 +-
+ Src/Base/AMReX_CoordSys.H                          |  70 +--
+ Src/Base/AMReX_CoordSys.cpp                        |  42 +-
+ Src/Base/AMReX_CudaAllocators.H                    |   2 +-
+ Src/Base/AMReX_CudaAllocators.cpp                  |   4 +-
+ Src/Base/AMReX_CudaAsyncArray.H                    |   4 +-
+ Src/Base/AMReX_CudaAsyncFab.H                      |  10 +-
+ Src/Base/AMReX_CudaAsyncFab.cpp                    |   6 +-
+ Src/Base/AMReX_CudaAsyncFabImpl.H                  |   4 +-
+ Src/Base/AMReX_CudaAsyncFabImpl.cpp                |  12 +-
+ Src/Base/AMReX_CudaDevice.H                        |  32 +-
+ Src/Base/AMReX_CudaDevice.cpp                      |  14 +-
+ Src/Base/AMReX_CudaElixir.H                        |  10 +-
+ Src/Base/AMReX_CudaElixir.cpp                      |   2 +-
+ Src/Base/AMReX_CudaLaunch.H                        |  95 +--
+ Src/Base/AMReX_CudaMemory.H                        |  24 +-
+ Src/Base/AMReX_CudaRange.H                         |  24 +-
+ Src/Base/AMReX_CudaReduce.H                        |  40 +-
+ Src/Base/AMReX_CudaUtility.H                       |  62 +-
+ Src/Base/AMReX_CudaUtility.cpp                     |   4 +-
+ Src/Base/AMReX_DistributionMapping.H               |  36 +-
+ Src/Base/AMReX_DistributionMapping.cpp             |   6 +-
+ Src/Base/AMReX_FArrayBox.H                         |  42 +-
+ Src/Base/AMReX_FArrayBox.cpp                       |   8 +-
+ Src/Base/AMReX_FabArray.H                          | 102 ++--
+ Src/Base/AMReX_FabArrayBase.H                      |  70 ++-
+ Src/Base/AMReX_FabArrayBase.cpp                    |   2 +-
+ Src/Base/AMReX_FabFactory.H                        |   4 +-
+ Src/Base/AMReX_FilCC_1D_C.H                        |   2 +-
+ Src/Base/AMReX_FilCC_2D_C.H                        |   2 +-
+ Src/Base/AMReX_FilCC_3D_C.H                        |   2 +-
+ Src/Base/AMReX_Geometry.H                          |  74 +--
+ Src/Base/AMReX_Geometry.cpp                        |  12 +-
+ Src/Base/AMReX_GpuControl.H                        |   8 +-
+ Src/Base/AMReX_GpuError.H                          |   2 +-
+ Src/Base/AMReX_IArrayBox.H                         |   4 +-
+ Src/Base/AMReX_IArrayBox.cpp                       |   4 +-
+ Src/Base/AMReX_IndexType.H                         |  50 +-
+ Src/Base/AMReX_IntVect.H                           | 174 +++---
+ Src/Base/AMReX_LayoutData.H                        |   8 +-
+ Src/Base/AMReX_MFIter.H                            |  52 +-
+ Src/Base/AMReX_MFIter.cpp                          |  18 +-
+ Src/Base/AMReX_MultiFab.H                          |   8 +-
+ Src/Base/AMReX_MultiFab.cpp                        |   8 +-
+ Src/Base/AMReX_MultiFabUtil_1D_C.H                 |  20 +-
+ Src/Base/AMReX_MultiFabUtil_2D_C.H                 |  20 +-
+ Src/Base/AMReX_MultiFabUtil_3D_C.H                 |  20 +-
+ Src/Base/AMReX_MultiFabUtil_nd_C.H                 |   2 +-
+ Src/Base/AMReX_Orientation.H                       |  56 +-
+ Src/Base/AMReX_ParallelContext.H                   |  46 +-
+ Src/Base/AMReX_ParallelDescriptor.H                |  46 +-
+ Src/Base/AMReX_ParallelDescriptor.cpp              |   4 +-
+ Src/Base/AMReX_Periodicity.H                       |  16 +-
+ Src/Base/AMReX_Periodicity.cpp                     |   4 +-
+ Src/Base/AMReX_PhysBCFunct.H                       |  10 +-
+ Src/Base/AMReX_PlotFileUtil.H                      |  36 +-
+ Src/Base/AMReX_RealBox.H                           |  44 +-
+ Src/Base/AMReX_RealBox.cpp                         |   4 +-
+ Src/Base/AMReX_RealVect.H                          | 149 +++--
+ Src/Base/AMReX_RealVect.cpp                        |  60 +-
+ Src/Base/AMReX_TinyProfiler.H                      |  26 +-
+ Src/Base/AMReX_TinyProfiler.cpp                    |  24 +-
+ Src/Base/AMReX_Utility.H                           |  27 +-
+ Src/Base/AMReX_Utility.cpp                         |  75 +--
+ Src/Base/AMReX_Vector.H                            |   8 +-
+ Src/Base/AMReX_iMultiFab.H                         |  14 -
+ Src/Base/AMReX_iMultiFab.cpp                       |  20 -
+ Src/Boundary/AMReX_BndryData.H                     |  34 +-
+ Src/Boundary/AMReX_BndryData.cpp                   |  20 +-
+ Src/Boundary/AMReX_BndryRegister.H                 |  14 +-
+ Src/Boundary/AMReX_BndryRegister.cpp               |   4 +-
+ Src/Boundary/AMReX_BoundCond.H                     |   8 +-
+ Src/Boundary/AMReX_FabSet.H                        |  52 +-
+ Src/Boundary/AMReX_FabSet.cpp                      |   2 +-
+ Src/Boundary/AMReX_InterpBndryData.H               |   2 +-
+ Src/Boundary/AMReX_InterpBndryData.cpp             |   2 +-
+ Src/Boundary/AMReX_InterpBndryData_1D_K.H          |   4 +-
+ Src/Boundary/AMReX_InterpBndryData_2D_K.H          |   8 +-
+ Src/Boundary/AMReX_InterpBndryData_3D_K.H          |  12 +-
+ Src/Boundary/AMReX_LOUtil_K.H                      |   2 +-
+ Src/Boundary/AMReX_MacBndry.H                      |   6 +-
+ Src/Boundary/AMReX_Mask.H                          |  38 +-
+ Src/Boundary/AMReX_Mask.cpp                        |   2 +-
+ Src/Boundary/AMReX_MultiMask.H                     |  14 +-
+ Src/Boundary/AMReX_YAFluxRegister.H                |   8 +-
+ Src/Boundary/AMReX_YAFluxRegister.cpp              |   4 +-
+ Src/Boundary/AMReX_YAFluxRegister_1D_K.H           |   4 +-
+ Src/Boundary/AMReX_YAFluxRegister_2D_K.H           |   4 +-
+ Src/Boundary/AMReX_YAFluxRegister_3D_K.H           |   4 +-
+ Src/LinearSolvers/MLMG/AMReX_MG_1D_K.H             |   2 +-
+ Src/LinearSolvers/MLMG/AMReX_MG_2D_K.H             |   2 +-
+ Src/LinearSolvers/MLMG/AMReX_MG_3D_K.H             |   2 +-
+ Src/LinearSolvers/MLMG/AMReX_MLABecLap_1D_K.H      |  10 +-
+ Src/LinearSolvers/MLMG/AMReX_MLABecLap_2D_K.H      |  14 +-
+ Src/LinearSolvers/MLMG/AMReX_MLABecLap_3D_K.H      |  18 +-
+ Src/LinearSolvers/MLMG/AMReX_MLABecLaplacian.H     |   2 +-
+ Src/LinearSolvers/MLMG/AMReX_MLABecLaplacian.cpp   |   2 +-
+ Src/LinearSolvers/MLMG/AMReX_MLALap_1D_K.H         |  11 +-
+ Src/LinearSolvers/MLMG/AMReX_MLALap_2D_K.H         |  15 +-
+ Src/LinearSolvers/MLMG/AMReX_MLALap_3D_K.H         |  18 +-
+ Src/LinearSolvers/MLMG/AMReX_MLALaplacian.H        |   2 +-
+ Src/LinearSolvers/MLMG/AMReX_MLALaplacian.cpp      |   2 +-
+ Src/LinearSolvers/MLMG/AMReX_MLCGSolver.H          |   2 +-
+ Src/LinearSolvers/MLMG/AMReX_MLCellLinOp.H         |  12 +-
+ Src/LinearSolvers/MLMG/AMReX_MLEBABecLap.H         |   4 +-
+ Src/LinearSolvers/MLMG/AMReX_MLLinOp.H             |  54 +-
+ Src/LinearSolvers/MLMG/AMReX_MLLinOp.cpp           |   4 +-
+ Src/LinearSolvers/MLMG/AMReX_MLLinOp_K.H           |  12 +-
+ Src/LinearSolvers/MLMG/AMReX_MLMG.H                |  42 +-
+ Src/LinearSolvers/MLMG/AMReX_MLMG_1D_K.H           |   4 +-
+ Src/LinearSolvers/MLMG/AMReX_MLMG_2D_K.H           |   4 +-
+ Src/LinearSolvers/MLMG/AMReX_MLMG_3D_K.H           |   4 +-
+ Src/LinearSolvers/MLMG/AMReX_MLNodeLaplacian.H     |  10 +-
+ Src/LinearSolvers/MLMG/AMReX_MLPoisson.H           |   2 +-
+ Src/LinearSolvers/MLMG/AMReX_MLPoisson_1D_K.H      |  10 +-
+ Src/LinearSolvers/MLMG/AMReX_MLPoisson_2D_K.H      |  14 +-
+ Src/LinearSolvers/MLMG/AMReX_MLPoisson_3D_K.H      |  16 +-
+ Src/LinearSolvers/MLMG/AMReX_MacProjector.H        |   6 +-
+ Src/Particle/AMReX_ParticleContainerI.H            | 217 +++----
+ Src/Particle/AMReX_Particles.H                     |  21 +
+ Tests/GPU/ScratchPad/main.cpp                      |   5 +-
+ Tools/GNUMake/sites/Make.olcf                      |   5 +-
+ Tutorials/GPU/CNS/Source/CNS.cpp                   |   8 +-
+ Tutorials/GPU/CNS/Source/CNS_K.H                   |   4 +-
+ Tutorials/GPU/CNS/Source/CNS_advance.cpp           |  18 +-
+ Tutorials/GPU/CNS/Source/CNS_derive.cpp            |   4 +-
+ Tutorials/GPU/CNS/Source/CNS_tagging.H             |   2 +-
+ Tutorials/GPU/CNS/Source/hydro/CNS_hydro_K.H       |  21 +-
+ 186 files changed, 2702 insertions(+), 2483 deletions(-)
+ create mode 100644 Docs/JOSS/Makefile
+ create mode 100644 Docs/JOSS/paper.bib
+ create mode 100644 Docs/JOSS/paper.md
+ create mode 100644 Docs/sphinx_documentation/source/ForkJoin.rst
+ create mode 100755 Docs/sphinx_documentation/source/figs/fork_join_tasks.png
+ create mode 100755 Docs/sphinx_documentation/source/figs/nested_fork_join_tasks.png
+From https://github.com/AMReX-Codes/amrex
+   ff5b21f55..cc30b10c2  development           -> origin/development
+   c0e25b105..32c7b8c22  gh-pages              -> origin/gh-pages
+ * [new branch]          kngott/FillBoundary   -> origin/kngott/FillBoundary
+   a204e6b58..f2419baef  kngott/cudaGraphs     -> origin/kngott/cudaGraphs
+ * [new branch]          weiqun/attribute_weak -> origin/weiqun/attribute_weak
+   d7a64c05b..fc22930a1  weiqun/noexcept       -> origin/weiqun/noexcept
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating cc30b10c2..f4da05bca
+Fast-forward
+ Docs/JOSS/Makefile                      | 4 ++--
+ Src/Particle/AMReX_ParticleContainerI.H | 4 ++--
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+From https://github.com/AMReX-Codes/amrex
+   cc30b10c2..f4da05bca  development         -> origin/development
+   32c7b8c22..96b2f9ee1  gh-pages            -> origin/gh-pages
+   d94ba7df1..5363729bc  kngott/FillBoundary -> origin/kngott/FillBoundary
+ * [new branch]          weiqun/bestfit      -> origin/weiqun/bestfit
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Already up to date.
+Already up to date.
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating f4da05bca..bd7f69ff9
+Fast-forward
+ Src/Amr/AMReX_Amr.H                           |   6 +
+ Src/Amr/AMReX_Amr.cpp                         |  60 +++++++++-
+ Src/Base/AMReX_Arena.cpp                      |  16 ++-
+ Src/Base/AMReX_CArena.H                       |   8 +-
+ Src/Base/AMReX_CudaUtility.H                  |   1 +
+ Src/Base/AMReX_EArena.H                       | 117 +++++++++++++++++++
+ Src/Base/AMReX_EArena.cpp                     | 154 ++++++++++++++++++++++++++
+ Src/Base/AMReX_Utility.H                      |  23 +++-
+ Src/Base/AMReX_Utility.cpp                    |  81 +++++++++++++-
+ Src/Base/CMakeLists.txt                       |   4 +-
+ Src/Base/Make.package                         |   4 +-
+ Tests/GPU/RandomNumberGeneration/GNUmakefile  |  21 ++++
+ Tests/GPU/RandomNumberGeneration/Make.package |   2 +
+ Tests/GPU/RandomNumberGeneration/main.cpp     |  87 +++++++++++++++
+ Tools/GNUMake/Make.machines                   |   4 +
+ Tools/GNUMake/sites/Make.nrel                 |  10 +-
+ 16 files changed, 579 insertions(+), 19 deletions(-)
+ create mode 100644 Src/Base/AMReX_EArena.H
+ create mode 100644 Src/Base/AMReX_EArena.cpp
+ create mode 100644 Tests/GPU/RandomNumberGeneration/GNUmakefile
+ create mode 100644 Tests/GPU/RandomNumberGeneration/Make.package
+ create mode 100644 Tests/GPU/RandomNumberGeneration/main.cpp
+From https://github.com/AMReX-Codes/amrex
+   f4da05bca..bd7f69ff9  development         -> origin/development
+   96b2f9ee1..e39a62543  gh-pages            -> origin/gh-pages
+   5363729bc..8968932ba  kngott/FillBoundary -> origin/kngott/FillBoundary
+   f2419baef..3124d1704  kngott/cudaGraphs   -> origin/kngott/cudaGraphs
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating bd7f69ff9..b628b06c1
+Fast-forward
+ Docs/JOSS/paper.bib |  54 +++++++-------------
+ Docs/JOSS/paper.md  | 144 ++++++++++++++++++++++++++--------------------------
+ 2 files changed, 90 insertions(+), 108 deletions(-)
+From https://github.com/AMReX-Codes/amrex
+   bd7f69ff9..b628b06c1  development       -> origin/development
+   e39a62543..aa54f8d0f  gh-pages          -> origin/gh-pages
+   3124d1704..afd6aec62  kngott/cudaGraphs -> origin/kngott/cudaGraphs
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating b628b06c1..4587cb067
+Fast-forward
+ Src/Base/AMReX_Arena.H                    |    1 +
+ Src/Base/AMReX_Arena.cpp                  |   14 +
+ Src/Base/AMReX_BaseFab.H                  | 1527 +++++++++++++++--------------
+ Src/Base/AMReX_FArrayBox.cpp              |   18 +-
+ Src/Base/AMReX_FabArray.H                 |   26 +
+ Src/Base/AMReX_FabArrayBase.cpp           |    6 +-
+ Src/Base/AMReX_TypeTraits.H               |    5 +-
+ Src/Base/AMReX_Utility.cpp                |   30 +-
+ Src/Base/AMReX_VisMF.cpp                  |   20 +-
+ Src/EB/AMReX_EBMultiFabUtil_2d.F90        |  175 ++++
+ Src/EB/AMReX_EBMultiFabUtil_3d.F90        |  182 +++-
+ Src/Particle/AMReX_ParticleContainerI.H   |    4 +-
+ Tests/GPU/RandomNumberGeneration/main.cpp |   42 +
+ Tools/GNUMake/comps/gnu.mak               |    7 +-
+ Tools/GNUMake/comps/nvcc.mak              |    6 +-
+ {Docs/JOSS => paper}/Makefile             |    0
+ {Docs/JOSS => paper}/paper.bib            |    0
+ {Docs/JOSS => paper}/paper.md             |   12 +-
+ 18 files changed, 1282 insertions(+), 793 deletions(-)
+ rename {Docs/JOSS => paper}/Makefile (100%)
+ rename {Docs/JOSS => paper}/paper.bib (100%)
+ rename {Docs/JOSS => paper}/paper.md (97%)
+From https://github.com/AMReX-Codes/amrex
+   b628b06c1..4587cb067  development       -> origin/development
+   aa54f8d0f..20a605adc  gh-pages          -> origin/gh-pages
+   afd6aec62..86385fa4a  kngott/cudaGraphs -> origin/kngott/cudaGraphs
+   884d3194c..c4421d914  master            -> origin/master
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 4587cb067..3e2e1eb13
+Fast-forward
+ Src/EB/AMReX_EBMultiFabUtil_2d.F90                 |   4 +-
+ .../Convergence/RichardsonConvergenceTest.cpp      |  84 +--
+ Tools/F_scripts/write_cuda_headers.py              | 658 +++++++++++----------
+ Tools/F_scripts/write_probin.py                    |  11 +-
+ Tools/GNUMake/Make.rules                           |   5 +-
+ paper/paper.md                                     |   2 +-
+ 6 files changed, 392 insertions(+), 372 deletions(-)
+From https://github.com/AMReX-Codes/amrex
+   4587cb067..3e2e1eb13  development -> origin/development
+   20a605adc..1117dc018  gh-pages    -> origin/gh-pages
+   c4421d914..dfb29ccb2  master      -> origin/master
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 3e2e1eb13..4f8f5f7f3
+Fast-forward
+ Src/Amr/AMReX_AmrLevel.cpp    | 8 ++++----
+ Src/Base/AMReX_CudaDevice.cpp | 4 ++++
+ 2 files changed, 8 insertions(+), 4 deletions(-)
+From https://github.com/AMReX-Codes/amrex
+   3e2e1eb13..4f8f5f7f3  development -> origin/development
+   1117dc018..c42ff7d4a  gh-pages    -> origin/gh-pages
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 4f8f5f7f3..4122aadfe
+Fast-forward
+ Tools/Postprocessing/C_Src/particle_compare.cpp | 4 ++++
+ 1 file changed, 4 insertions(+)
+From https://github.com/AMReX-Codes/amrex
+   4f8f5f7f3..4122aadfe  development -> origin/development
+   c42ff7d4a..64bd426d7  gh-pages    -> origin/gh-pages
+   5b628078c..ade8fe6ed  mr/cmake    -> origin/mr/cmake
+   7bc6ca003..363b0a505  weiqun/gpu  -> origin/weiqun/gpu
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 4122aadfe..a1f6ec0e0
+Fast-forward
+ Src/Amr/AMReX_Amr.cpp                             |  10 -
+ Src/Amr/AMReX_AmrLevel.cpp                        |   4 +
+ Src/AmrTask/Amr/AMReX_AmrTask.cpp                 |  10 -
+ Src/Base/AMReX_Array.H                            |  15 +-
+ Src/Base/AMReX_BaseFab.H                          |   4 +-
+ Src/Base/AMReX_FabArray.H                         | 124 +++---
+ Src/Base/AMReX_FabArrayCommI.H                    |   4 +-
+ Src/Base/AMReX_FabArrayUtility.H                  |  22 ++
+ Src/Base/AMReX_MFIter.H                           |   8 +-
+ Src/Base/AMReX_MFIter.cpp                         |  12 +-
+ Src/EB/AMReX_EB2_GeometryShop.H                   |  70 ++--
+ Src/EB/AMReX_EB2_IF.H                             |  16 +
+ Src/EB/AMReX_EB2_IF_AllRegular.H                  |   7 +-
+ Src/EB/AMReX_EB2_IF_Base.H                        |  23 ++
+ Src/EB/AMReX_EB2_IF_Box.H                         |  36 +-
+ Src/EB/AMReX_EB2_IF_Complement.H                  |  19 +-
+ Src/EB/AMReX_EB2_IF_Sphere.H                      |   2 +
+ Src/EB/AMReX_EB2_Level.H                          |  12 +-
+ Src/EB/AMReX_EB2_Level.cpp                        |  13 +-
+ Src/EB/AMReX_EBFabFactory.H                       |  26 +-
+ Src/EB/AMReX_EBFabFactory.cpp                     |   8 +-
+ Src/EB/AMReX_MultiCutFab.H                        |  24 +-
+ Src/EB/AMReX_MultiCutFab.cpp                      |  34 +-
+ Src/EB/CMakeLists.txt                             |   2 +-
+ Src/EB/Make.package                               |   1 +
+ Src/F_Interfaces/Base/AMReX_multifab_fi.cpp       |   5 +
+ Src/F_Interfaces/Base/AMReX_multifab_mod.F90      |  12 +
+ Src/LinearSolvers/MLMG/AMReX_MLEBABecLap_2d.F90   | 254 ++++++------
+ Src/LinearSolvers/MLMG/AMReX_MLEBABecLap_3d.F90   | 187 +++++----
+ Tutorials/GPU/EBCNS/Exec/Make.CNS                 |  36 ++
+ Tutorials/GPU/EBCNS/Exec/Sod/GNUmakefile          |  14 +
+ Tutorials/GPU/EBCNS/Exec/Sod/Make.package         |   3 +
+ Tutorials/GPU/EBCNS/Exec/Sod/cns_prob.H           |  39 ++
+ Tutorials/GPU/EBCNS/Exec/Sod/cns_prob.cpp         |  32 ++
+ Tutorials/GPU/EBCNS/Exec/Sod/cns_prob_parm.H      |  17 +
+ Tutorials/GPU/EBCNS/Exec/Sod/inputs               |  63 +++
+ Tutorials/GPU/EBCNS/README                        |   1 +
+ Tutorials/GPU/EBCNS/Source/CNS.H                  | 183 +++++++++
+ Tutorials/GPU/EBCNS/Source/CNS.cpp                | 456 ++++++++++++++++++++++
+ Tutorials/GPU/EBCNS/Source/CNSBld.cpp             |  57 +++
+ Tutorials/GPU/EBCNS/Source/CNS_K.H                |  66 ++++
+ Tutorials/GPU/EBCNS/Source/CNS_advance.cpp        | 192 +++++++++
+ Tutorials/GPU/EBCNS/Source/CNS_bcfill.cpp         |  50 +++
+ Tutorials/GPU/EBCNS/Source/CNS_derive.H           |  15 +
+ Tutorials/GPU/EBCNS/Source/CNS_derive.cpp         |  30 ++
+ Tutorials/GPU/EBCNS/Source/CNS_index_macros.H     |  23 ++
+ Tutorials/GPU/EBCNS/Source/CNS_init_eb2.cpp       |  74 ++++
+ Tutorials/GPU/EBCNS/Source/CNS_io.cpp             | 234 +++++++++++
+ Tutorials/GPU/EBCNS/Source/CNS_parm.H             |  25 ++
+ Tutorials/GPU/EBCNS/Source/CNS_parm.cpp           |  25 ++
+ Tutorials/GPU/EBCNS/Source/CNS_setup.cpp          | 161 ++++++++
+ Tutorials/GPU/EBCNS/Source/CNS_tagging.H          |  27 ++
+ Tutorials/GPU/EBCNS/Source/Make.package           |  10 +
+ Tutorials/GPU/EBCNS/Source/diffusion/Make.package |   1 +
+ Tutorials/GPU/EBCNS/Source/hydro/CNS_hydro_K.H    | 396 +++++++++++++++++++
+ Tutorials/GPU/EBCNS/Source/hydro/Make.package     |   4 +
+ Tutorials/GPU/EBCNS/Source/main.cpp               | 100 +++++
+ 57 files changed, 2928 insertions(+), 370 deletions(-)
+ create mode 100644 Src/EB/AMReX_EB2_IF_Base.H
+ create mode 100644 Tutorials/GPU/EBCNS/Exec/Make.CNS
+ create mode 100644 Tutorials/GPU/EBCNS/Exec/Sod/GNUmakefile
+ create mode 100644 Tutorials/GPU/EBCNS/Exec/Sod/Make.package
+ create mode 100644 Tutorials/GPU/EBCNS/Exec/Sod/cns_prob.H
+ create mode 100644 Tutorials/GPU/EBCNS/Exec/Sod/cns_prob.cpp
+ create mode 100644 Tutorials/GPU/EBCNS/Exec/Sod/cns_prob_parm.H
+ create mode 100644 Tutorials/GPU/EBCNS/Exec/Sod/inputs
+ create mode 100644 Tutorials/GPU/EBCNS/README
+ create mode 100644 Tutorials/GPU/EBCNS/Source/CNS.H
+ create mode 100644 Tutorials/GPU/EBCNS/Source/CNS.cpp
+ create mode 100644 Tutorials/GPU/EBCNS/Source/CNSBld.cpp
+ create mode 100644 Tutorials/GPU/EBCNS/Source/CNS_K.H
+ create mode 100644 Tutorials/GPU/EBCNS/Source/CNS_advance.cpp
+ create mode 100644 Tutorials/GPU/EBCNS/Source/CNS_bcfill.cpp
+ create mode 100644 Tutorials/GPU/EBCNS/Source/CNS_derive.H
+ create mode 100644 Tutorials/GPU/EBCNS/Source/CNS_derive.cpp
+ create mode 100644 Tutorials/GPU/EBCNS/Source/CNS_index_macros.H
+ create mode 100644 Tutorials/GPU/EBCNS/Source/CNS_init_eb2.cpp
+ create mode 100644 Tutorials/GPU/EBCNS/Source/CNS_io.cpp
+ create mode 100644 Tutorials/GPU/EBCNS/Source/CNS_parm.H
+ create mode 100644 Tutorials/GPU/EBCNS/Source/CNS_parm.cpp
+ create mode 100644 Tutorials/GPU/EBCNS/Source/CNS_setup.cpp
+ create mode 100644 Tutorials/GPU/EBCNS/Source/CNS_tagging.H
+ create mode 100644 Tutorials/GPU/EBCNS/Source/Make.package
+ create mode 100644 Tutorials/GPU/EBCNS/Source/diffusion/Make.package
+ create mode 100644 Tutorials/GPU/EBCNS/Source/hydro/CNS_hydro_K.H
+ create mode 100644 Tutorials/GPU/EBCNS/Source/hydro/Make.package
+ create mode 100644 Tutorials/GPU/EBCNS/Source/main.cpp
+From https://github.com/AMReX-Codes/amrex
+   4122aadfe..a1f6ec0e0  development -> origin/development
+   64bd426d7..bf17ba666  gh-pages    -> origin/gh-pages
+   ade8fe6ed..e4439bfc3  mr/cmake    -> origin/mr/cmake
+   363b0a505..714d12275  weiqun/gpu  -> origin/weiqun/gpu
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating a1f6ec0e0..add89e7a9
+Fast-forward
+ .../MultiGrid_C/HypreABecLap/HypreABecLap.H        |   71 -
+ .../MultiGrid_C/HypreABecLap/HypreABecLap.cpp      |  396 -----
+ .../MultiGrid_C/HypreABecLap/HypreABec_3D.F        |  383 ----
+ .../MultiGrid_C/HypreABecLap/HypreABec_F.H         |   85 -
+ OldTutorials/MultiGrid_C/HypreABecLap/Make.package |    9 -
+ Src/Boundary/AMReX_BndryData.H                     |    4 +-
+ Src/EB/AMReX_EB2_GeometryShop.H                    |    2 +-
+ Src/EB/AMReX_EB2_IF.H                              |   15 -
+ Src/EB/AMReX_EB2_IF_Box.H                          |    8 +-
+ Src/EB/AMReX_EB2_IF_Complement.H                   |    5 +-
+ Src/EB/AMReX_EB2_IF_Cylinder.H                     |   46 +-
+ Src/EB/AMReX_EB2_IF_Difference.H                   |   23 +-
+ Src/EB/AMReX_EB2_IF_Ellipsoid.H                    |   32 +-
+ Src/EB/AMReX_EB2_IF_Extrusion.H                    |   24 +-
+ Src/EB/AMReX_EB2_IF_Intersection.H                 |   13 +
+ Src/EB/AMReX_EB2_IF_Lathe.H                        |   21 +-
+ Src/EB/AMReX_EB2_IF_Plane.H                        |   30 +-
+ Src/EB/AMReX_EB2_IF_Polynomial.H                   |    1 +
+ Src/EB/AMReX_EB2_IF_Rotation.H                     |  104 +-
+ Src/EB/AMReX_EB2_IF_Scale.H                        |   24 +-
+ Src/EB/AMReX_EB2_IF_Sphere.H                       |   31 +-
+ Src/EB/AMReX_EB2_IF_Spline.H                       |    1 +
+ Src/EB/AMReX_EB2_IF_Torus.H                        |   32 +-
+ Src/EB/AMReX_EB2_IF_Translation.H                  |   26 +-
+ Src/EB/AMReX_EB2_IF_Union.H                        |    1 +
+ Src/EB/AMReX_EBCellFlag.H                          |   20 +
+ Src/LinearSolvers/C_CellMG/AMReX_ABecLaplacian.H   |    8 +-
+ Src/LinearSolvers/C_CellMG/AMReX_LinOp.H           |   13 +-
+ Src/LinearSolvers/C_CellMG4/AMReX_ABec2.H          |    2 +-
+ Src/LinearSolvers/C_CellMG4/AMReX_ABec4.H          |    2 +-
+ Src/LinearSolvers/C_TensorMG/AMReX_DivVis.H        |    8 +-
+ Src/LinearSolvers/C_TensorMG/AMReX_MCLinOp.H       |   15 +-
+ Src/LinearSolvers/MLMG/AMReX_MLEBABecLap_3d.F90    |    6 +-
+ Tests/LinearSolvers/C_CellMG/main.cpp              |    2 +-
+ .../ComparisonTest/HypreABecLap/HypreABecLap.H     |  361 ----
+ .../ComparisonTest/HypreABecLap/HypreABecLap.cpp   | 1837 --------------------
+ .../ComparisonTest/HypreABecLap/HypreABec_3D.F     |  584 -------
+ .../ComparisonTest/HypreABecLap/HypreABec_F.H      |   74 -
+ .../ComparisonTest/HypreABecLap/Make.package       |    9 -
+ 39 files changed, 330 insertions(+), 3998 deletions(-)
+ delete mode 100644 OldTutorials/MultiGrid_C/HypreABecLap/HypreABecLap.H
+ delete mode 100644 OldTutorials/MultiGrid_C/HypreABecLap/HypreABecLap.cpp
+ delete mode 100644 OldTutorials/MultiGrid_C/HypreABecLap/HypreABec_3D.F
+ delete mode 100644 OldTutorials/MultiGrid_C/HypreABecLap/HypreABec_F.H
+ delete mode 100644 OldTutorials/MultiGrid_C/HypreABecLap/Make.package
+ delete mode 100644 Tests/LinearSolvers/ComparisonTest/HypreABecLap/HypreABecLap.H
+ delete mode 100644 Tests/LinearSolvers/ComparisonTest/HypreABecLap/HypreABecLap.cpp
+ delete mode 100644 Tests/LinearSolvers/ComparisonTest/HypreABecLap/HypreABec_3D.F
+ delete mode 100644 Tests/LinearSolvers/ComparisonTest/HypreABecLap/HypreABec_F.H
+ delete mode 100644 Tests/LinearSolvers/ComparisonTest/HypreABecLap/Make.package
+From https://github.com/AMReX-Codes/amrex
+   a1f6ec0e0..add89e7a9  development -> origin/development
+   bf17ba666..63138f385  gh-pages    -> origin/gh-pages
+   e4439bfc3..c19f3c944  mr/cmake    -> origin/mr/cmake
+   714d12275..1b485769d  weiqun/gpu  -> origin/weiqun/gpu
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating add89e7a9..06c6c0e27
+Fast-forward
+ Src/Amr/AMReX_Amr.cpp                              |   73 +-
+ Src/Amr/AMReX_StateDescriptor.H                    |    2 +-
+ Src/AmrTask/rts_impls/mpi_omp/AsyncMultiFabUtil.H  |   23 +-
+ .../rts_impls/mpi_omp/AsyncMultiFabUtil.cpp        |   71 +-
+ Src/AmrTask/rts_impls/mpi_omp/Barrier.cpp          |    4 +-
+ Src/AmrTask/rts_impls/mpi_omp/LocalConnection.H    |    5 +
+ Src/AmrTask/rts_impls/mpi_omp/Make.package         |    9 +-
+ Src/AmrTask/rts_impls/mpi_omp/PackageQueue.H       |    2 +
+ Src/AmrTask/rts_impls/mpi_omp/PackageQueue.cpp     |   36 +
+ Src/AmrTask/rts_impls/mpi_omp/Perilla.H            |   23 +-
+ Src/AmrTask/rts_impls/mpi_omp/Perilla.cpp          |  268 +++-
+ Src/AmrTask/rts_impls/mpi_omp/PerillaConfig.H      |    3 +-
+ Src/AmrTask/rts_impls/mpi_omp/PerillaRts.H         |   16 +
+ Src/AmrTask/rts_impls/mpi_omp/PerillaRts.cpp       |   10 +-
+ Src/AmrTask/rts_impls/mpi_omp/RGIter.H             |   65 +
+ Src/AmrTask/rts_impls/mpi_omp/RGIter.cpp           |  615 ++++++++++
+ Src/AmrTask/rts_impls/mpi_omp/RegionGraph.H        |   59 +-
+ Src/AmrTask/rts_impls/mpi_omp/RegionGraph.cpp      |  142 ++-
+ Src/AmrTask/rts_impls/mpi_omp/RegionQueue.H        |    4 +-
+ Src/AmrTask/rts_impls/mpi_omp/RegionQueue.cpp      |   23 +-
+ Src/AmrTask/rts_impls/mpi_omp/RemoteConnection.H   |   24 +-
+ Src/AmrTask/rts_impls/mpi_omp/WorkerThread.H       |    6 +-
+ Src/AmrTask/rts_impls/mpi_omp/WorkerThread.cpp     |    9 +-
+ Src/AmrTask/rts_impls/mpi_omp/perilla.mak          |    1 +
+ Src/AmrTask/rts_impls/mpi_pthreads/Perilla.cpp     |    9 -
+ Src/AmrTask/rts_impls/mpi_pthreads/PerillaRts.H    |    2 +
+ Src/AmrTask/rts_impls/mpi_pthreads/PerillaRts.cpp  |   84 ++
+ Src/AmrTask/rts_impls/pthreads_common/RGIter.H     |   10 +-
+ Src/AmrTask/rts_impls/pthreads_common/RGIter.cpp   |   97 +-
+ .../Adv_phaseAsync_rgi/Exec/Make.Adv.mpi.omp       |    3 +-
+ .../Exec/SingleVortex/GNUmakefile                  |    7 +-
+ Src/Base/AMReX_MemPool.cpp                         |    9 +-
+ Src/CMakeLists.txt                                 |   26 +-
+ Src/EB/AMReX_EBCellFlag.H                          |   20 -
+ Src/Extern/SUNDIALS4/CMakeLists.txt                |   34 +
+ Src/Extern/SUNDIALS4/Make.package                  |   11 +
+ Src/Extern/SUNDIALS4/arkode_interface.f90          |   23 +
+ Src/Extern/SUNDIALS4/cvode_interface.f90           |   21 +
+ Src/Extern/SUNDIALS4/farkode_arkstep_mod.f90       | 1290 ++++++++++++++++++++
+ Src/Extern/SUNDIALS4/farkode_mod.f90               |  310 +++++
+ Src/Extern/SUNDIALS4/fcvode_mod.f90                |  917 ++++++++++++++
+ Src/Extern/SUNDIALS4/fnvector_mod.f90              |  430 +++++++
+ Src/Extern/SUNDIALS4/fnvector_serial_mod.f90       |  614 ++++++++++
+ Src/Extern/SUNDIALS4/fsundials_types_mod.f90       |   30 +
+ Src/Extern/SUNDIALS4/fsunlinsol_dense_mod.f90      |  127 ++
+ Src/Extern/SUNDIALS4/fsunlinsol_mod.f90            |  243 ++++
+ Src/Extern/SUNDIALS4/fsunmatrix_dense_mod.f90      |  220 ++++
+ Src/Extern/SUNDIALS4/fsunmatrix_mod.f90            |  115 ++
+ Tools/CMake/AMReX_Options.cmake                    |    2 +-
+ Tools/CMake/FindSUNDIALS.cmake                     |    2 +-
+ Tools/GNUMake/Make.defs                            |    9 +-
+ Tools/GNUMake/Make.rules                           |    6 +
+ Tools/GNUMake/packages/Make.sundials4              |   39 +
+ .../CVODE/SUNDIALS4/EX_ark_analytic/GNUmakefile    |   23 +
+ .../CVODE/SUNDIALS4/EX_ark_analytic/Make.package   |    3 +
+ .../EX_ark_analytic/ark_analytic_f2003.f90         |  283 +++++
+ 56 files changed, 6296 insertions(+), 216 deletions(-)
+ create mode 100755 Src/AmrTask/rts_impls/mpi_omp/RGIter.H
+ create mode 100755 Src/AmrTask/rts_impls/mpi_omp/RGIter.cpp
+ create mode 100644 Src/Extern/SUNDIALS4/CMakeLists.txt
+ create mode 100644 Src/Extern/SUNDIALS4/Make.package
+ create mode 100644 Src/Extern/SUNDIALS4/arkode_interface.f90
+ create mode 100644 Src/Extern/SUNDIALS4/cvode_interface.f90
+ create mode 100644 Src/Extern/SUNDIALS4/farkode_arkstep_mod.f90
+ create mode 100644 Src/Extern/SUNDIALS4/farkode_mod.f90
+ create mode 100644 Src/Extern/SUNDIALS4/fcvode_mod.f90
+ create mode 100644 Src/Extern/SUNDIALS4/fnvector_mod.f90
+ create mode 100644 Src/Extern/SUNDIALS4/fnvector_serial_mod.f90
+ create mode 100644 Src/Extern/SUNDIALS4/fsundials_types_mod.f90
+ create mode 100644 Src/Extern/SUNDIALS4/fsunlinsol_dense_mod.f90
+ create mode 100644 Src/Extern/SUNDIALS4/fsunlinsol_mod.f90
+ create mode 100644 Src/Extern/SUNDIALS4/fsunmatrix_dense_mod.f90
+ create mode 100644 Src/Extern/SUNDIALS4/fsunmatrix_mod.f90
+ create mode 100644 Tools/GNUMake/packages/Make.sundials4
+ create mode 100644 Tutorials/CVODE/SUNDIALS4/EX_ark_analytic/GNUmakefile
+ create mode 100644 Tutorials/CVODE/SUNDIALS4/EX_ark_analytic/Make.package
+ create mode 100644 Tutorials/CVODE/SUNDIALS4/EX_ark_analytic/ark_analytic_f2003.f90
+From https://github.com/AMReX-Codes/amrex
+   add89e7a9..06c6c0e27  development       -> origin/development
+   63138f385..a245882e1  gh-pages          -> origin/gh-pages
+ * [new branch]          kngott/kokkos     -> origin/kngott/kokkos
+   c19f3c944..6aa4e2fec  mr/cmake          -> origin/mr/cmake
+ * [new branch]          relaxed_constexpr -> origin/relaxed_constexpr
+   1b485769d..ab9793fd4  weiqun/gpu        -> origin/weiqun/gpu
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 06c6c0e27..fe161deb7
+Fast-forward
+ Docs/sphinx_documentation/Makefile                  |  3 ++-
+ Docs/sphinx_documentation/source/BuildingAMReX.rst  | 16 ++++++++++++++++
+ Docs/sphinx_documentation/source/GettingStarted.rst | 17 +++++++++++++----
+ 3 files changed, 31 insertions(+), 5 deletions(-)
+From https://github.com/AMReX-Codes/amrex
+   06c6c0e27..fe161deb7  development       -> origin/development
+   a245882e1..f46eec74a  gh-pages          -> origin/gh-pages
+   86385fa4a..92eb49602  kngott/cudaGraphs -> origin/kngott/cudaGraphs
+   305075d14..34ff60f1c  kngott/kokkos     -> origin/kngott/kokkos
+   6aa4e2fec..aac0e7819  mr/cmake          -> origin/mr/cmake
+   ab9793fd4..1a3f5a7a7  weiqun/gpu        -> origin/weiqun/gpu
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating fe161deb7..71e6689e8
+Fast-forward
+ Src/Base/AMReX_CudaDevice.cpp  |   7 +
+ Src/Base/AMReX_filcc_mod.F90   | 998 +++++++++++++++++++++++++++++++++++++++--
+ Tools/F_scripts/gpu_fortran.py |  34 +-
+ Tools/GNUMake/Make.rules       |  10 +-
+ Tools/GNUMake/comps/ibm.mak    |   4 +-
+ 5 files changed, 1006 insertions(+), 47 deletions(-)
+From https://github.com/AMReX-Codes/amrex
+   fe161deb7..71e6689e8  development   -> origin/development
+   f46eec74a..bbc585a17  gh-pages      -> origin/gh-pages
+   34ff60f1c..ad787a9ce  kngott/kokkos -> origin/kngott/kokkos
+   1a3f5a7a7..d871ba204  weiqun/gpu    -> origin/weiqun/gpu
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 71e6689e8..46e36a122
+Fast-forward
+ CHANGES                                            |  19 ++
+ CMakeLists.txt                                     |  35 +-
+ Docs/sphinx_documentation/source/Basics.rst        |  15 +-
+ Docs/sphinx_documentation/source/BuildingAMReX.rst |   2 +-
+ Docs/sphinx_documentation/source/Fortran.rst       |   3 +-
+ Src/Amr/CMakeLists.txt                             |  28 +-
+ Src/AmrCore/CMakeLists.txt                         |  47 ++-
+ Src/Base/AMReX_CudaMemory.H                        |   4 +-
+ Src/Base/AMReX_CudaUtility.H                       |   2 +-
+ Src/Base/AMReX_FACopyDescriptor.H                  |   2 +-
+ Src/Base/AMReX_FabArray.H                          |  16 +-
+ Src/Base/AMReX_FabArrayUtility.H                   |  88 ++---
+ Src/Base/AMReX_IndexSequence.H                     |  12 -
+ Src/Base/AMReX_ParallelDescriptor.H                |   2 +-
+ Src/Base/AMReX_SPACE.H                             |   2 +-
+ Src/Base/AMReX_Tuple.H                             | 170 ++++++++-
+ Src/Base/AMReX_filcc_mod.F90                       |   2 +-
+ Src/Base/CMakeLists.txt                            | 380 ++++++++++++---------
+ Src/Boundary/CMakeLists.txt                        |  48 +--
+ Src/CMakeLists.txt                                 | 187 +++-------
+ Src/EB/AMReX_EB2_IF_Intersection.H                 |  50 ++-
+ Src/EB/AMReX_EB2_IF_Union.H                        |  56 ++-
+ Src/EB/AMReX_EBCellFlag.H                          |  20 ++
+ Src/EB/CMakeLists.txt                              | 121 ++++---
+ Src/Extern/Algoim/CMakeLists.txt                   |   9 +-
+ Src/Extern/Conduit/CMakeLists.txt                  |  34 +-
+ Src/Extern/ProfParser/CMakeLists.txt               |  24 +-
+ Src/Extern/SENSEI/CMakeLists.txt                   |  26 +-
+ Src/Extern/SUNDIALS3/CMakeLists.txt                |  35 +-
+ Src/Extern/SUNDIALS4/CMakeLists.txt                |  45 +--
+ Src/Extern/amrdata/CMakeLists.txt                  |  19 +-
+ Src/F_Interfaces/CMakeLists.txt                    | 119 +++++--
+ Src/LinearSolvers/CMakeLists.txt                   | 149 ++++----
+ Src/Particle/AMReX_NeighborParticlesGPUImpl.H      |  24 +-
+ Src/Particle/AMReX_ParIterI.H                      |   4 +-
+ Src/Particle/AMReX_ParticleContainerI.H            |   4 +-
+ Src/Particle/CMakeLists.txt                        |  50 ++-
+ Tools/CMake/AMReXConfig.cmake.in                   |  49 ++-
+ Tools/CMake/AMReXInstallHelpers.cmake              | 124 +++++++
+ Tools/CMake/AMReX_Compilers.cmake                  | 217 ++++++------
+ Tools/CMake/AMReX_Config.cmake                     | 251 ++++++++------
+ Tools/CMake/AMReX_Defines.cmake                    | 168 +++------
+ Tools/CMake/AMReX_InstallExternalLibs.cmake        |  13 -
+ Tools/CMake/AMReX_Options.cmake                    | 155 ++++++---
+ Tools/CMake/AMReX_SetupCUDA.cmake                  |  80 +++++
+ Tools/CMake/AMReX_SetupThirdPartyLibs.cmake        |  65 ----
+ Tools/CMake/AMReX_ThirdPartyProfilers.cmake        |  37 +-
+ Tools/CMake/AMReX_Utils.cmake                      | 313 +++++++++++------
+ Tools/CMake/modify_installed_headers.cmake         |  12 +
+ Tools/CMake/select_gpu_arch.cmake                  | 281 +++++++++++++++
+ Tools/GNUMake/comps/nvcc.mak                       |  10 +-
+ Tutorials/Amr/Advection_F/CMakeLists.txt           |   7 +-
+ Tutorials/Amr/Advection_octree_F/CMakeLists.txt    |   7 +-
+ Tutorials/CMakeLists.txt                           |   3 +-
+ Tutorials/GPU/Advection_AmrCore/CMakeLists.txt     |   5 +-
+ Tutorials/GPU/Launch/CMakeLists.txt                |  51 +++
+ Tutorials/GPU/Launch/MyKernel_F.F90                |  15 +-
+ Tutorials/GPU/NeighborList/CMakeLists.txt          |  42 +++
+ 58 files changed, 2464 insertions(+), 1294 deletions(-)
+ create mode 100644 Tools/CMake/AMReXInstallHelpers.cmake
+ create mode 100644 Tools/CMake/AMReX_SetupCUDA.cmake
+ delete mode 100644 Tools/CMake/AMReX_SetupThirdPartyLibs.cmake
+ create mode 100644 Tools/CMake/modify_installed_headers.cmake
+ create mode 100644 Tools/CMake/select_gpu_arch.cmake
+ create mode 100644 Tutorials/GPU/Launch/CMakeLists.txt
+ create mode 100644 Tutorials/GPU/NeighborList/CMakeLists.txt
+From https://github.com/AMReX-Codes/amrex
+   71e6689e8..46e36a122  development -> origin/development
+   bbc585a17..597e782b8  gh-pages    -> origin/gh-pages
+   dfb29ccb2..14d22dc36  master      -> origin/master
+   aac0e7819..6cfd06170  mr/cmake    -> origin/mr/cmake
+   d871ba204..21f3e9588  weiqun/gpu  -> origin/weiqun/gpu
+ * [new tag]             19.04.1     -> 19.04.1
+ * [new tag]             19.04       -> 19.04
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 46e36a122..e00ee5362
+Fast-forward
+ Docs/sphinx_documentation/source/BuildingAMReX.rst |   3 +-
+ Src/AmrCore/AMReX_Interpolater.H                   |  16 +-
+ Src/AmrCore/AMReX_Interpolater.cpp                 |  14 +-
+ Src/Base/AMReX_ParallelContext.H                   |   8 +
+ Src/Base/AMReX_Utility.cpp                         |   6 +-
+ Src/Base/AMReX_VisMF.H                             |   3 +-
+ Src/Base/AMReX_VisMF.cpp                           |  16 +-
+ Src/EB/AMReX_EBInterpolater.H                      |   2 +-
+ Src/EB/AMReX_EBInterpolater.cpp                    |   2 +-
+ Src/EB/AMReX_eb2_2d.F90                            |   2 +-
+ Src/Extern/Algoim/CMakeLists.txt                   |   2 +
+ Src/LinearSolvers/MLMG/AMReX_MLLinOp.H             |   5 +
+ Src/LinearSolvers/MLMG/AMReX_MLMG.H                |   6 +-
+ Src/LinearSolvers/MLMG/AMReX_MLMG.cpp              |  61 ++-
+ Src/LinearSolvers/MLMG/AMReX_MLNodeLaplacian.H     |   6 +-
+ Src/LinearSolvers/MLMG/AMReX_MLNodeLaplacian.cpp   |  85 ++++
+ Src/Particle/AMReX_NeighborParticlesGPUImpl.H      |   2 +
+ Tools/CMake/AMReXConfig.cmake.in                   |   4 +
+ Tools/Plotfile/GNUmakefile                         |   2 +-
+ Tools/Postprocessing/C_Src/GNUmakefile             |   1 -
+ Tools/Postprocessing/C_Src/fcompare.cpp            | 459 ---------------------
+ Tools/Postprocessing/C_Src/fextract.cpp            | 335 ---------------
+ 22 files changed, 217 insertions(+), 823 deletions(-)
+ delete mode 100644 Tools/Postprocessing/C_Src/fcompare.cpp
+ delete mode 100644 Tools/Postprocessing/C_Src/fextract.cpp
+From https://github.com/AMReX-Codes/amrex
+   46e36a122..e00ee5362  development -> origin/development
+   597e782b8..d709b99a7  gh-pages    -> origin/gh-pages
+   14d22dc36..a9af99042  master      -> origin/master
+ * [new tag]             19.04.2     -> 19.04.2
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating e00ee5362..94ae28c65
+Fast-forward
+ Src/Base/AMReX_CudaAsyncFabImpl.cpp | 1 +
+ 1 file changed, 1 insertion(+)
+From https://github.com/AMReX-Codes/amrex
+   e00ee5362..94ae28c65  development       -> origin/development
+   d709b99a7..42662cb01  gh-pages          -> origin/gh-pages
+   92eb49602..33cea5c4b  kngott/cudaGraphs -> origin/kngott/cudaGraphs
+ * [new branch]          weiqun/hypre-node -> origin/weiqun/hypre-node
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 94ae28c65..daeaa0022
+Fast-forward
+ Docs/sphinx_documentation/source/BuildingAMReX.rst |   2 +-
+ Src/EB/AMReX_eb2_2d.F90                            |  29 +++
+ Src/EB/AMReX_eb2_3d.F90                            |  46 +++-
+ Src/Extern/amrdata/AMReX_FABUTIL_3D.F              |  11 +-
+ Src/LinearSolvers/MLMG/AMReX_MLLinOp.H             |   4 +
+ Src/Particle/AMReX_NeighborList.H                  |  43 ++--
+ Tools/CMake/AMReXConfig.cmake.in                   |   5 -
+ Tools/CMake/AMReX_Options.cmake                    |   3 -
+ Tools/CMake/AMReX_SetupCUDA.cmake                  |  81 ++++--
+ Tools/Postprocessing/C_Src/HorizontalAvg.cpp       | 274 ++++++++++-----------
+ Tools/Postprocessing/C_Src/IntegrateComp.cpp       | 142 +++++------
+ Tools/Postprocessing/C_Src/MultiFabToMatLab.cpp    |  34 +--
+ Tools/Postprocessing/C_Src/PlotfileToMatLab.cpp    | 258 +++++++++----------
+ Tools/Postprocessing/C_Src/PtwisePltTransform.cpp  | 119 ++++-----
+ Tutorials/Amr/Advection_AmrCore/CMakeLists.txt     |   4 +
+ Tutorials/Amr/Advection_AmrLevel/CMakeLists.txt    |   8 +-
+ Tutorials/Basic/HeatEquation_EX1_C/CMakeLists.txt  |   4 +
+ 17 files changed, 585 insertions(+), 482 deletions(-)
+From https://github.com/AMReX-Codes/amrex
+   94ae28c65..daeaa0022  development       -> origin/development
+   42662cb01..f5dec091d  gh-pages          -> origin/gh-pages
+   6d5b65028..9b36ce982  weiqun/hypre-node -> origin/weiqun/hypre-node
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating daeaa0022..7b39f201b
+Fast-forward
+ Tools/CMake/AMReXConfig.cmake.in  | 16 +++++++++++++---
+ Tools/CMake/AMReX_Options.cmake   |  7 +++----
+ Tools/CMake/AMReX_SetupCUDA.cmake |  9 ++++++---
+ 3 files changed, 22 insertions(+), 10 deletions(-)
+From https://github.com/AMReX-Codes/amrex
+   daeaa0022..7b39f201b  development       -> origin/development
+   f5dec091d..5d0770311  gh-pages          -> origin/gh-pages
+   9b36ce982..39fdb400f  weiqun/hypre-node -> origin/weiqun/hypre-node
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 7b39f201b..16804ab0e
+Fast-forward
+ Src/Base/AMReX_FabArrayUtility.H                 |  32 ++
+ Src/Base/AMReX_MultiFab.cpp                      |  70 +---
+ Src/Base/AMReX_iMultiFab.H                       |   4 +
+ Src/Base/AMReX_iMultiFab.cpp                     |  47 +++
+ Src/Extern/HYPRE/AMReX_HypreABecLap3.cpp         |   2 +-
+ Src/Extern/HYPRE/AMReX_HypreNodeLap.H            |  65 ++++
+ Src/Extern/HYPRE/AMReX_HypreNodeLap.cpp          | 414 +++++++++++++++++++++++
+ Src/Extern/HYPRE/Make.package                    |   3 +
+ Src/LinearSolvers/MLMG/AMReX_MLLinOp.H           |   8 +
+ Src/LinearSolvers/MLMG/AMReX_MLMG.H              |   2 +
+ Src/LinearSolvers/MLMG/AMReX_MLMG.cpp            |  46 ++-
+ Src/LinearSolvers/MLMG/AMReX_MLNodeLaplacian.H   |  27 +-
+ Src/LinearSolvers/MLMG/AMReX_MLNodeLaplacian.cpp | 344 ++++++++++++++++++-
+ Tests/LinearSolvers/NodeEB/MyTest.cpp            |   2 +-
+ 14 files changed, 968 insertions(+), 98 deletions(-)
+ create mode 100644 Src/Extern/HYPRE/AMReX_HypreNodeLap.H
+ create mode 100644 Src/Extern/HYPRE/AMReX_HypreNodeLap.cpp
+From https://github.com/AMReX-Codes/amrex
+   7b39f201b..16804ab0e  development       -> origin/development
+   5d0770311..804293179  gh-pages          -> origin/gh-pages
+   39fdb400f..16804ab0e  weiqun/hypre-node -> origin/weiqun/hypre-node
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 16804ab0e..09f0389a5
+Fast-forward
+ Src/CMakeLists.txt                                 |  4 ++
+ Src/Extern/HYPRE/CMakeLists.txt                    | 32 ++++++++++
+ Src/Particle/AMReX_NeighborList.H                  |  3 +-
+ Tools/CMake/AMReX_Options.cmake                    |  8 +++
+ Tools/CMake/FindHYPRE.cmake                        | 74 ++++++++++++++++++++++
+ Tutorials/CMakeLists.txt                           |  2 +-
+ .../LinearSolvers/ABecLaplacian_C/CMakeLists.txt   | 49 ++++++++++++++
+ 7 files changed, 170 insertions(+), 2 deletions(-)
+ create mode 100644 Src/Extern/HYPRE/CMakeLists.txt
+ create mode 100644 Tools/CMake/FindHYPRE.cmake
+ create mode 100644 Tutorials/LinearSolvers/ABecLaplacian_C/CMakeLists.txt
+From https://github.com/AMReX-Codes/amrex
+   16804ab0e..09f0389a5  development -> origin/development
+   804293179..e0aa5fe86  gh-pages    -> origin/gh-pages
+ * [new branch]          init_from_binary_gpu_friendly -> origin/init_from_binary_gpu_friendly
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 09f0389a5..303f72eef
+Fast-forward
+ Src/Base/AMReX_Array.H                  |   10 -
+ Src/Extern/HYPRE/CMakeLists.txt         |    2 +-
+ Src/Extern/SUNDIALS4/CMakeLists.txt     |    5 +-
+ Src/Particle/AMReX_ParticleContainerI.H | 1343 ++++++++++++++++++-------------
+ Src/Particle/AMReX_Particles.H          |   93 ++-
+ Tests/Particles/AssignDensity/main.cpp  |    2 +-
+ Tools/CMake/AMReXConfig.cmake.in        |    9 +-
+ Tools/CMake/FindHYPRE.cmake             |    2 -
+ Tools/CMake/FindSUNDIALS.cmake          |   62 +-
+ Tools/GNUMake/packages/Make.ascent      |    3 +-
+ Tools/GNUMake/packages/Make.conduit     |    3 +-
+ 11 files changed, 880 insertions(+), 654 deletions(-)
+From https://github.com/AMReX-Codes/amrex
+   09f0389a5..303f72eef  development           -> origin/development
+   e0aa5fe86..3b515c3dd  gh-pages              -> origin/gh-pages
+   16804ab0e..203cb0b81  init_from_binary_gpu_friendly -> origin/init_from_binary_gpu_friendly
+   33cea5c4b..e7aeeba1e  kngott/cudaGraphs     -> origin/kngott/cudaGraphs
+ * [new branch]          selective_particle_io -> origin/selective_particle_io
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 303f72eef..1d53b3c5f
+Fast-forward
+ GNUmakefile.in                                     |  6 ++-
+ Src/Amr/AMReX_AmrLevel.cpp                         |  4 +-
+ Src/Amr/AMReX_AsyncFillPatch.cpp                   |  2 +-
+ Src/AmrCore/AMReX_TagBox.cpp                       |  2 +-
+ Src/AmrTask/Amr/AMReX_AmrLevelTask.cpp             |  2 +-
+ Src/Base/AMReX_CudaUtility.cpp                     |  2 +-
+ Src/Base/AMReX_DistributionMapping.cpp             |  6 +--
+ Src/Base/AMReX_MFIter.cpp                          |  2 +-
+ Src/Base/AMReX_Machine.cpp                         |  4 +-
+ Src/Base/AMReX_TypeTraits.H                        |  2 +-
+ Src/LinearSolvers/MLMG/AMReX_MLLinOp.cpp           |  2 +-
+ Src/LinearSolvers/MLMG/AMReX_MLNodeLaplacian.cpp   |  8 +--
+ Src/Particle/AMReX_ParticleInit.H                  | 27 +++++++++-
+ Tests/C_BaseLib/tMF.cpp                            |  2 +-
+ Tests/LinearSolvers/CellEB/GNUmakefile             |  7 ---
+ Tests/LinearSolvers/CellEB2/GNUmakefile            |  8 ---
+ Tests/LinearSolvers/EBConvergenceTest/GNUmakefile  |  4 --
+ Tests/LinearSolvers/EBflux_grad/GNUmakefile        |  4 --
+ Tests/LinearSolvers/MLMG/GNUmakefile               |  4 --
+ Tests/LinearSolvers/NodeEB/GNUmakefile             |  7 ---
+ Tools/GNUMake/Make.defs                            |  2 +
+ Tools/GNUMake/Make.rules                           | 62 ++++++++++++++--------
+ Tools/GNUMake/comps/cray.mak                       |  6 ++-
+ Tools/GNUMake/comps/gnu.mak                        |  6 ++-
+ Tools/GNUMake/comps/ibm.mak                        |  3 +-
+ Tools/GNUMake/comps/intel.mak                      |  5 +-
+ Tools/GNUMake/comps/llvm-flang.mak                 |  3 +-
+ Tools/GNUMake/comps/llvm.mak                       |  6 ++-
+ Tools/GNUMake/comps/nag.mak                        |  6 ++-
+ Tools/GNUMake/comps/nec.mak                        |  5 +-
+ Tools/GNUMake/comps/nvcc.mak                       |  4 +-
+ Tools/GNUMake/comps/pgi.mak                        | 14 ++---
+ Tools/GNUMake/packages/Make.ascent                 |  2 +-
+ Tools/GNUMake/packages/Make.hypre                  |  8 +--
+ Tools/GNUMake/packages/Make.petsc                  |  8 +--
+ Tools/libamrex/configure.py                        |  2 +-
+ Tools/libamrex/mkconfig.py                         | 61 ++++++++++-----------
+ Tools/libamrex/mkpkgconfig.py                      | 59 ++++++++++++++++++++
+ Tutorials/EB/CNS/Source/CNS_io.cpp                 |  2 +-
+ Tutorials/EB/MacProj/GNUmakefile                   |  8 ---
+ Tutorials/GPU/CNS/Source/CNS_bcfill.cpp            |  2 +-
+ Tutorials/GPU/EBCNS/Source/CNS_bcfill.cpp          |  2 +-
+ Tutorials/GPU/EBCNS/Source/CNS_io.cpp              |  2 +-
+ .../Exec/OpenACC/GNUmakefile.libamrex              | 59 ++++++++++++++++++++
+ .../LinearSolvers/ABecLaplacian_C/GNUmakefile      |  8 ---
+ .../LinearSolvers/ABecLaplacian_F/GNUmakefile      |  4 +-
+ 46 files changed, 291 insertions(+), 163 deletions(-)
+ create mode 100755 Tools/libamrex/mkpkgconfig.py
+ create mode 100644 Tutorials/GPU/HeatEquation_EX1_C/Exec/OpenACC/GNUmakefile.libamrex
+From https://github.com/AMReX-Codes/amrex
+   303f72eef..1d53b3c5f  development         -> origin/development
+   3b515c3dd..5d1f1cfd8  gh-pages            -> origin/gh-pages
+ * [new branch]          init_from_random_restart_gpu_friendly -> origin/init_from_random_restart_gpu_friendly
+   8968932ba..75b409a7d  kngott/FillBoundary -> origin/kngott/FillBoundary
+   14953314e..a6a729186  nodeghostcells      -> origin/nodeghostcells
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 1d53b3c5f..a24c99169
+Fast-forward
+ Src/Base/AMReX_CudaDevice.cpp           |   2 +-
+ Src/Particle/AMReX_ParticleContainerI.H |  77 +++++++++++---
+ Src/Particle/AMReX_ParticleInit.H       | 175 ++++++++++++++++++++++++++++----
+ Tools/GNUMake/Make.defs                 |  32 +++++-
+ Tools/GNUMake/sites/Make.nersc          |   2 +-
+ 5 files changed, 246 insertions(+), 42 deletions(-)
+From https://github.com/AMReX-Codes/amrex
+   1d53b3c5f..a24c99169  development         -> origin/development
+   5d1f1cfd8..a2b66d4f3  gh-pages            -> origin/gh-pages
+   75b409a7d..cc563a127  kngott/FillBoundary -> origin/kngott/FillBoundary
+   e7aeeba1e..e11dd4439  kngott/cudaGraphs   -> origin/kngott/cudaGraphs
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating a24c99169..64e04a14b
+Fast-forward
+ Docs/sphinx_documentation/source/BuildingAMReX.rst | 104 ++++++++++++++-------
+ Docs/sphinx_documentation/source/GPU.rst           |  23 ++++-
+ Src/Extern/HYPRE/AMReX_HABEC_2D.F90                |   6 +-
+ Src/Extern/HYPRE/AMReX_HABEC_3D.F90                |   4 +-
+ Src/LinearSolvers/MLMG/AMReX_MLEBABecLap_2d.F90    |  63 ++++++++-----
+ Src/LinearSolvers/MLMG/AMReX_MLEBABecLap_3d.F90    |  30 ++++--
+ Tools/CMake/AMReX_InstallExternalLibs.cmake        |  40 ++++----
+ 7 files changed, 173 insertions(+), 97 deletions(-)
+From https://github.com/AMReX-Codes/amrex
+   a24c99169..64e04a14b  development       -> origin/development
+   a2b66d4f3..c4d93c1ff  gh-pages          -> origin/gh-pages
+   e11dd4439..1785d0ad9  kngott/cudaGraphs -> origin/kngott/cudaGraphs
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Already up to date.
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 64e04a14b..4ee9542ec
+Fast-forward
+ Docs/sphinx_documentation/source/Particle.rst | 2 +-
+ Tools/Plotfile/fextract.cpp                   | 7 +++++++
+ 2 files changed, 8 insertions(+), 1 deletion(-)
+From https://github.com/AMReX-Codes/amrex
+   64e04a14b..4ee9542ec  development -> origin/development
+   c4d93c1ff..a3e45038e  gh-pages    -> origin/gh-pages
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 4ee9542ec..8214977df
+Fast-forward
+ Src/Amr/AMReX_Amr.cpp                              |   2 +
+ Src/AmrTask/rts_impls/mpi_pthreads/Perilla.cpp     |  20 +-
+ Src/AmrTask/rts_impls/mpi_pthreads/PerillaRts.cpp  |  83 -----
+ Src/AmrTask/rts_impls/mpi_pthreads/RegionGraph.cpp |  28 +-
+ .../pthreads_common/AsyncMultiFabUtil.cpp          |   9 +-
+ Src/AmrTask/rts_impls/pthreads_common/RGIter.H     |  12 +-
+ Src/AmrTask/rts_impls/pthreads_common/RGIter.cpp   | 174 ++++++++--
+ .../rts_impls/pthreads_common/WorkerThread.cpp     |   2 +-
+ .../tutorials/MiniApps/Adv_Async_OnDemand/._Exec   | Bin 0 -> 212 bytes
+ .../tutorials/MiniApps/Adv_Async_OnDemand/._README | Bin 0 -> 212 bytes
+ .../tutorials/MiniApps/Adv_Async_OnDemand/._Source | Bin 0 -> 212 bytes
+ .../MiniApps/Adv_Async_OnDemand/Exec/._Make.Adv    | Bin 0 -> 212 bytes
+ .../Adv_Async_OnDemand/Exec/._SingleVortex         | Bin 0 -> 212 bytes
+ .../Adv_Async_OnDemand/Exec/._UniformVelocity      | Bin 0 -> 212 bytes
+ .../Adv_Async_OnDemand/Exec/Make.Adv.mpi.omp       |  67 ++++
+ .../Adv_Async_OnDemand/Exec/Make.Adv.mpi.pthreads  |  67 ++++
+ .../Exec/Make.Adv.upcxx.pthreads                   |  73 ++++
+ .../Exec/SingleVortex/._GNUmakefile                | Bin 0 -> 212 bytes
+ .../Exec/SingleVortex/._Make.package               | Bin 0 -> 212 bytes
+ .../Exec/SingleVortex/._Prob.f90                   | Bin 0 -> 212 bytes
+ .../Exec/SingleVortex/._face_velocity_2d.f90       | Bin 0 -> 212 bytes
+ .../Exec/SingleVortex/._face_velocity_3d.f90       | Bin 0 -> 212 bytes
+ .../Adv_Async_OnDemand/Exec/SingleVortex/._inputs  | Bin 0 -> 212 bytes
+ .../Adv_Async_OnDemand/Exec/SingleVortex/._probin  | Bin 0 -> 212 bytes
+ .../Exec/SingleVortex/GNUmakefile                  |  24 ++
+ .../Exec/SingleVortex/Make.package                 |   1 +
+ .../Adv_Async_OnDemand/Exec/SingleVortex/Prob.f90  |  57 ++++
+ .../Exec/SingleVortex/face_velocity_2d.f90         |  61 ++++
+ .../Exec/SingleVortex/face_velocity_3d.f90         |  69 ++++
+ .../Adv_Async_OnDemand/Exec/SingleVortex/inputs    |  42 +++
+ .../Adv_Async_OnDemand/Exec/SingleVortex/probin    |  14 +
+ .../Exec/UniformVelocity/._GNUmakefile             | Bin 0 -> 212 bytes
+ .../Exec/UniformVelocity/._Make.package            | Bin 0 -> 212 bytes
+ .../Exec/UniformVelocity/._Prob.f90                | Bin 0 -> 212 bytes
+ .../Exec/UniformVelocity/._face_velocity_2d.f90    | Bin 0 -> 212 bytes
+ .../Exec/UniformVelocity/._inputs                  | Bin 0 -> 212 bytes
+ .../Exec/UniformVelocity/._probdata.f90            | Bin 0 -> 212 bytes
+ .../Exec/UniformVelocity/._probin                  | Bin 0 -> 212 bytes
+ .../Exec/UniformVelocity/GNUmakefile               |  21 ++
+ .../Exec/UniformVelocity/Make.package              |   2 +
+ .../Exec/UniformVelocity/Prob.f90                  |  84 +++++
+ .../Exec/UniformVelocity/face_velocity_2d.f90      |  22 ++
+ .../Adv_Async_OnDemand/Exec/UniformVelocity/inputs |  39 +++
+ .../Exec/UniformVelocity/probdata.f90              |   7 +
+ .../Adv_Async_OnDemand/Exec/UniformVelocity/probin |  14 +
+ .../tutorials/MiniApps/Adv_Async_OnDemand/README   |   9 +
+ .../MiniApps/Adv_Async_OnDemand/Source/._Adv.H     | Bin 0 -> 212 bytes
+ .../MiniApps/Adv_Async_OnDemand/Source/._Adv.cpp   | Bin 0 -> 212 bytes
+ .../Adv_Async_OnDemand/Source/._AdvBld.cpp         | Bin 0 -> 212 bytes
+ .../MiniApps/Adv_Async_OnDemand/Source/._Adv_F.H   | Bin 0 -> 212 bytes
+ .../Adv_Async_OnDemand/Source/._Adv_advance.cpp    | Bin 0 -> 212 bytes
+ .../Adv_Async_OnDemand/Source/._Adv_dt.cpp         | Bin 0 -> 212 bytes
+ .../Adv_Async_OnDemand/Source/._Adv_io.cpp         | Bin 0 -> 212 bytes
+ .../Adv_Async_OnDemand/Source/._Adv_setup.cpp      | Bin 0 -> 212 bytes
+ .../Adv_Async_OnDemand/Source/._Make.package       | Bin 0 -> 212 bytes
+ .../MiniApps/Adv_Async_OnDemand/Source/._Src_2d    | Bin 0 -> 212 bytes
+ .../MiniApps/Adv_Async_OnDemand/Source/._Src_3d    | Bin 0 -> 212 bytes
+ .../MiniApps/Adv_Async_OnDemand/Source/._Src_nd    | Bin 0 -> 212 bytes
+ .../MiniApps/Adv_Async_OnDemand/Source/._main.cpp  | Bin 0 -> 212 bytes
+ .../MiniApps/Adv_Async_OnDemand/Source/Adv.H       | 224 ++++++++++++
+ .../MiniApps/Adv_Async_OnDemand/Source/Adv.cpp     | 378 +++++++++++++++++++++
+ .../MiniApps/Adv_Async_OnDemand/Source/AdvBld.cpp  |  57 ++++
+ .../MiniApps/Adv_Async_OnDemand/Source/Adv_F.H     |  44 +++
+ .../Adv_Async_OnDemand/Source/Adv_advance.cpp      | 123 +++++++
+ .../MiniApps/Adv_Async_OnDemand/Source/Adv_dt.cpp  | 171 ++++++++++
+ .../MiniApps/Adv_Async_OnDemand/Source/Adv_io.cpp  | 209 ++++++++++++
+ .../Adv_Async_OnDemand/Source/Adv_setup.cpp        |  51 +++
+ .../Adv_Async_OnDemand/Source/Make.package         |   9 +
+ .../Adv_Async_OnDemand/Source/Src_2d/._Adv_2d.f90  | Bin 0 -> 212 bytes
+ .../Source/Src_2d/._Make.package                   | Bin 0 -> 212 bytes
+ .../Source/Src_2d/._compute_flux_2d.f90            | Bin 0 -> 212 bytes
+ .../Source/Src_2d/._slope_2d.f90                   | Bin 0 -> 212 bytes
+ .../Adv_Async_OnDemand/Source/Src_2d/Adv_2d.f90    | 118 +++++++
+ .../Adv_Async_OnDemand/Source/Src_2d/Make.package  |   3 +
+ .../Source/Src_2d/compute_flux_2d.f90              | 113 ++++++
+ .../Adv_Async_OnDemand/Source/Src_2d/slope_2d.f90  | 126 +++++++
+ .../Adv_Async_OnDemand/Source/Src_3d/._Adv_3d.f90  | Bin 0 -> 212 bytes
+ .../Source/Src_3d/._Make.package                   | Bin 0 -> 212 bytes
+ .../Source/Src_3d/._compute_flux_3d.f90            | Bin 0 -> 212 bytes
+ .../Source/Src_3d/._slope_3d.f90                   | Bin 0 -> 212 bytes
+ .../Adv_Async_OnDemand/Source/Src_3d/Adv_3d.f90    | 144 ++++++++
+ .../Adv_Async_OnDemand/Source/Src_3d/Make.package  |   3 +
+ .../Source/Src_3d/compute_flux_3d.f90              | 287 ++++++++++++++++
+ .../Adv_Async_OnDemand/Source/Src_3d/slope_3d.f90  | 211 ++++++++++++
+ .../Adv_Async_OnDemand/Source/Src_nd/._Adv_nd.f90  | Bin 0 -> 212 bytes
+ .../Source/Src_nd/._Make.package                   | Bin 0 -> 212 bytes
+ .../Source/Src_nd/._Tagging_nd.f90                 | Bin 0 -> 212 bytes
+ .../Source/Src_nd/._tagging_params.f90             | Bin 0 -> 212 bytes
+ .../Adv_Async_OnDemand/Source/Src_nd/Adv_nd.f90    |  63 ++++
+ .../Adv_Async_OnDemand/Source/Src_nd/Make.package  |   2 +
+ .../Source/Src_nd/Tagging_nd.f90                   |  85 +++++
+ .../Source/Src_nd/tagging_params.f90               |   7 +
+ .../MiniApps/Adv_Async_OnDemand/Source/main.cpp    |  98 ++++++
+ Src/Base/AMReX_MultiFabUtil_Perilla.cpp            |   2 +-
+ Src/EB/AMReX_EB2_IF_Cylinder.H                     |   2 +-
+ Src/EB/AMReX_EBCellFlag.H                          |  16 +-
+ Src/EB/AMReX_EBCellFlag.cpp                        |   2 -
+ .../GPU/Advection_AmrCore/Source/AmrCoreAdv.cpp    |   6 +-
+ 98 files changed, 3395 insertions(+), 162 deletions(-)
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/._Exec
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/._README
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/._Source
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/._Make.Adv
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/._SingleVortex
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/._UniformVelocity
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/Make.Adv.mpi.omp
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/Make.Adv.mpi.pthreads
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/Make.Adv.upcxx.pthreads
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/SingleVortex/._GNUmakefile
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/SingleVortex/._Make.package
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/SingleVortex/._Prob.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/SingleVortex/._face_velocity_2d.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/SingleVortex/._face_velocity_3d.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/SingleVortex/._inputs
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/SingleVortex/._probin
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/SingleVortex/GNUmakefile
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/SingleVortex/Make.package
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/SingleVortex/Prob.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/SingleVortex/face_velocity_2d.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/SingleVortex/face_velocity_3d.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/SingleVortex/inputs
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/SingleVortex/probin
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/UniformVelocity/._GNUmakefile
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/UniformVelocity/._Make.package
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/UniformVelocity/._Prob.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/UniformVelocity/._face_velocity_2d.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/UniformVelocity/._inputs
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/UniformVelocity/._probdata.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/UniformVelocity/._probin
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/UniformVelocity/GNUmakefile
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/UniformVelocity/Make.package
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/UniformVelocity/Prob.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/UniformVelocity/face_velocity_2d.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/UniformVelocity/inputs
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/UniformVelocity/probdata.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Exec/UniformVelocity/probin
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/README
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/._Adv.H
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/._Adv.cpp
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/._AdvBld.cpp
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/._Adv_F.H
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/._Adv_advance.cpp
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/._Adv_dt.cpp
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/._Adv_io.cpp
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/._Adv_setup.cpp
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/._Make.package
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/._Src_2d
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/._Src_3d
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/._Src_nd
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/._main.cpp
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Adv.H
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Adv.cpp
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/AdvBld.cpp
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Adv_F.H
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Adv_advance.cpp
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Adv_dt.cpp
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Adv_io.cpp
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Adv_setup.cpp
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Make.package
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Src_2d/._Adv_2d.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Src_2d/._Make.package
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Src_2d/._compute_flux_2d.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Src_2d/._slope_2d.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Src_2d/Adv_2d.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Src_2d/Make.package
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Src_2d/compute_flux_2d.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Src_2d/slope_2d.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Src_3d/._Adv_3d.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Src_3d/._Make.package
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Src_3d/._compute_flux_3d.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Src_3d/._slope_3d.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Src_3d/Adv_3d.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Src_3d/Make.package
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Src_3d/compute_flux_3d.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Src_3d/slope_3d.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Src_nd/._Adv_nd.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Src_nd/._Make.package
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Src_nd/._Tagging_nd.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Src_nd/._tagging_params.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Src_nd/Adv_nd.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Src_nd/Make.package
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Src_nd/Tagging_nd.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/Src_nd/tagging_params.f90
+ create mode 100755 Src/AmrTask/tutorials/MiniApps/Adv_Async_OnDemand/Source/main.cpp
+From https://github.com/AMReX-Codes/amrex
+   4ee9542ec..8214977df  development   -> origin/development
+   a3e45038e..b729794dc  gh-pages      -> origin/gh-pages
+ * [new branch]          weiqun/mfdtor -> origin/weiqun/mfdtor
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 8214977df..88a2e78c1
+Fast-forward
+ Src/Base/AMReX.cpp                                 |   4 +
+ Src/Base/AMReX_Utility.H                           |   2 +-
+ Src/Base/AMReX_Utility.cpp                         |  23 +++-
+ Src/Particle/AMReX_ParticleContainerI.H            |  20 +--
+ Src/Particle/AMReX_Particles.H                     |  14 +--
+ Src/Particle/AMReX_StructOfArrays.H                |  20 +++
+ Tests/GPU/RandomNumberGeneration/main.cpp          |   5 -
+ Tools/CMake/AMReXConfig.cmake.in                   |   4 +
+ .../amrex_binary_particles_to_vtp.py               |   2 +-
+ Tools/libamrex/configure.py                        |  10 ++
+ Tutorials/EB/MacProj/main.cpp                      |  51 +++++---
+ .../Exec/CUDA/EMParticleContainer.cpp              | 138 +--------------------
+ .../ElectromagneticPIC/Exec/CUDA/Evolve.cpp        |   2 +
+ .../ElectromagneticPIC/Exec/CUDA/em_pic_K.H        |  35 +++++-
+ .../Exec/OpenACC/EMParticleContainer.cpp           | 138 ---------------------
+ .../ElectromagneticPIC/Exec/OpenACC/em_pic_3d.F90  |  14 +--
+ .../ElectromagneticPIC/Exec/OpenACC/script.sh      |   2 +-
+ .../Exec/OpenMP/EMParticleContainer.cpp            | 138 ---------------------
+ .../Exec/OpenMP/GNUmakefile.libamrex               |  58 +++++++++
+ .../ElectromagneticPIC/Source/Make.package         |   2 +-
+ 20 files changed, 218 insertions(+), 464 deletions(-)
+ create mode 100644 Tutorials/Particles/ElectromagneticPIC/Exec/OpenMP/GNUmakefile.libamrex
+From https://github.com/AMReX-Codes/amrex
+   8214977df..88a2e78c1  development          -> origin/development
+   b729794dc..ed30dd14f  gh-pages             -> origin/gh-pages
+ * [new branch]          particle_restart_fix -> origin/particle_restart_fix
+   13817df5f..1117d77a7  weiqun/mfdtor        -> origin/weiqun/mfdtor
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 88a2e78c1..18b207882
+Fast-forward
+ Src/Base/AMReX_BoxArray.H                          |   3 +
+ Src/Base/AMReX_BoxArray.cpp                        |  16 ++
+ Src/Base/AMReX_BoxList.H                           |   2 +-
+ Src/Base/AMReX_FabArray.H                          |  70 +++++++-
+ Src/F_Interfaces/AmrCore/AMReX_FAmrCore.H          |   8 +
+ Src/F_Interfaces/Octree/AMReX_octree_fi.cpp        | 117 +++++++++++-
+ Src/F_Interfaces/Octree/AMReX_octree_mod.F90       |  57 +++++-
+ Src/Particle/AMReX_NeighborList.H                  |  44 +++--
+ Src/Particle/AMReX_ParticleContainerI.H            |  52 ++++--
+ Tutorials/EB/MacProj/GNUmakefile                   |   6 +-
+ Tutorials/EB/MacProj/Make.package                  |   2 -
+ Tutorials/EB/MacProj/initEB.H                      |   8 -
+ Tutorials/EB/MacProj/initEB.cpp                    |  12 --
+ Tutorials/EB/MacProj/main.cpp                      |  50 ++++--
+ Tutorials/EB/Poisson/GNUmakefile                   |  27 +++
+ Tutorials/EB/Poisson/Make.package                  |   2 +
+ Tutorials/EB/Poisson/inputs                        |  11 ++
+ Tutorials/EB/Poisson/main.cpp                      | 145 +++++++++++++++
+ .../Exec/OpenMP/GNUmakefile.libamrex               |  32 ++--
+ .../Source/EMParticleContainerInit.cpp             | 196 +++++++++++++++++++++
+ 20 files changed, 757 insertions(+), 103 deletions(-)
+ delete mode 100644 Tutorials/EB/MacProj/initEB.H
+ delete mode 100644 Tutorials/EB/MacProj/initEB.cpp
+ create mode 100644 Tutorials/EB/Poisson/GNUmakefile
+ create mode 100644 Tutorials/EB/Poisson/Make.package
+ create mode 100644 Tutorials/EB/Poisson/inputs
+ create mode 100644 Tutorials/EB/Poisson/main.cpp
+ create mode 100644 Tutorials/Particles/ElectromagneticPIC/Source/EMParticleContainerInit.cpp
+From https://github.com/AMReX-Codes/amrex
+   88a2e78c1..18b207882  development -> origin/development
+   ed30dd14f..0cc01e8f7  gh-pages    -> origin/gh-pages
+Your branch is up to date with 'origin/development'.
+Already on 'development'
+Updating 18b207882..5514d867b
+Fast-forward
+ Docs/sphinx_documentation/source/EB.rst            |   6 +
+ Docs/sphinx_tutorials/source/EB_Tutorial.rst       |  10 +
+ GNUmakefile.in                                     |   8 +
+ Src/AmrCore/AMReX_AmrMesh.cpp                      |  20 +-
+ Src/Base/AMReX_Tuple.H                             |   4 +-
+ Src/Extern/HYPRE/AMReX_HABEC_2D.F90                |  72 +--
+ Src/Extern/HYPRE/AMReX_HABEC_3D.F90                |  80 +--
+ Src/Extern/PETSc/AMReX_PETSc.H                     |   8 +-
+ Src/Extern/PETSc/AMReX_PETSc.cpp                   |  49 +-
+ Src/Extern/PETSc/AMReX_PETSc_fort_mod.F90          |   7 +
+ Src/Extern/PETSc/Make.package                      |   2 +-
+ .../LinearSolvers/AMReX_multigrid_fi.cpp           |   2 +
+ .../LinearSolvers/AMReX_multigrid_mod.F90          |   1 +
+ Src/F_Interfaces/Octree/AMReX_octree_mod.F90       |   4 +-
+ Src/Particle/AMReX_NeighborList.H                  |   2 -
+ Src/Particle/AMReX_NeighborParticlesGPUImpl.H      |   6 +-
+ Tests/CreateSliceForDiagnostics/GNUmakefile        |  38 ++
+ Tests/CreateSliceForDiagnostics/Make.package       |   2 +
+ Tests/CreateSliceForDiagnostics/inputs             |  21 +
+ Tests/CreateSliceForDiagnostics/main.H             |  28 +
+ Tests/CreateSliceForDiagnostics/main.cpp           | 406 +++++++++++++
+ .../inputs                                         |  20 +
+ .../main.cpp                                       | 653 +++++++++++++++++++++
+ Tools/libamrex/configure.py                        |   5 +
+ Tutorials/EB/Poisson/Make.package                  |   7 +
+ Tutorials/EB/Poisson/Poisson.H                     |   8 +
+ Tutorials/EB/Poisson/Poisson.cpp                   |  28 +
+ Tutorials/EB/Poisson/Poisson_F.H                   |  20 +
+ Tutorials/EB/Poisson/inputs                        |   1 -
+ Tutorials/EB/Poisson/main.cpp                      |  38 +-
+ Tutorials/EB/Poisson/poisson.F90                   |  32 +
+ Tutorials/GPU/run.corigpu                          |   8 +-
+ Tutorials/GPU/run.summit                           |  57 +-
+ .../LinearSolvers/ABecLaplacian_C/inputs.hypre     |  32 +
+ .../LinearSolvers/ABecLaplacian_C/inputs.petsc     |  32 +
+ 35 files changed, 1567 insertions(+), 150 deletions(-)
+ create mode 100644 Src/Extern/PETSc/AMReX_PETSc_fort_mod.F90
+ create mode 100644 Tests/CreateSliceForDiagnostics/GNUmakefile
+ create mode 100644 Tests/CreateSliceForDiagnostics/Make.package
+ create mode 100644 Tests/CreateSliceForDiagnostics/inputs
+ create mode 100644 Tests/CreateSliceForDiagnostics/main.H
+ create mode 100644 Tests/CreateSliceForDiagnostics/main.cpp
+ create mode 100644 Tests/CreateSliceForDiagnosticsWithInterpolation_adjusttocoarsenIfrequired/inputs
+ create mode 100644 Tests/CreateSliceForDiagnosticsWithInterpolation_adjusttocoarsenIfrequired/main.cpp
+ create mode 100644 Tutorials/EB/Poisson/Poisson.H
+ create mode 100644 Tutorials/EB/Poisson/Poisson.cpp
+ create mode 100644 Tutorials/EB/Poisson/Poisson_F.H
+ create mode 100644 Tutorials/EB/Poisson/poisson.F90
+ create mode 100644 Tutorials/LinearSolvers/ABecLaplacian_C/inputs.hypre
+ create mode 100644 Tutorials/LinearSolvers/ABecLaplacian_C/inputs.petsc
+From https://github.com/AMReX-Codes/amrex
+   18b207882..5514d867b  development       -> origin/development
+   0cc01e8f7..f4d3e8844  gh-pages          -> origin/gh-pages
+   1785d0ad9..2c80873a4  kngott/cudaGraphs -> origin/kngott/cudaGraphs
+   6cfd06170..ed650e27b  mr/cmake          -> origin/mr/cmake

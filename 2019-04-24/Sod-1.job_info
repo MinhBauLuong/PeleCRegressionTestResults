@@ -1,0 +1,110 @@
+===============================================================================
+ PeleC Job Information
+===============================================================================
+job name: 
+
+inputs file: inputs-sod-rt1
+
+number of MPI processes: 2
+
+CPU time used since start of simulation (CPU-hours): 0.0109721
+
+===============================================================================
+ Plotfile Information
+===============================================================================
+output data / time: Wed Apr 24 06:06:41 2019
+output dir:         /projects/ecp/combustion/pelec-testing/PeleC-tests/2019-04-24/Sod-1
+
+
+===============================================================================
+ Build Information
+===============================================================================
+build date:    2019-04-24 06:05:53.210900
+build machine: Linux rhodes.hpc.nrel.gov 3.10.0-693.17.1.el7.x86_64 #1 SMP Thu Jan 25 20:13:58 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+build dir:     /projects/ecp/combustion/pelec-testing/PeleC/Exec/RegTests/Sod
+AMReX dir:     /projects/ecp/combustion/pelec-testing/amrex/
+
+COMP:          g++
+COMP version:  7.3.0
+FCOMP:         
+FCOMP version: 
+
+EOS: /projects/ecp/combustion/pelec-testing/PelePhysics/Eos/GammaLaw
+REACTIONS: /projects/ecp/combustion/pelec-testing/PelePhysics/Reactions/Null
+TRANSPORT: /projects/ecp/combustion/pelec-testing/PelePhysics/Transport
+
+PeleC       git hash: dd15090
+AMReX       git hash: 19.04.2-290-g9ed24023d
+PelePhysics git hash: 5ce24f2
+
+
+===============================================================================
+ Grid Information
+===============================================================================
+ level: 0
+   number of boxes = 2
+   maximum zones   = 32 8 8 
+
+ level: 1
+   number of boxes = 2
+   maximum zones   = 64 16 16 
+
+ level: 2
+   number of boxes = 2
+   maximum zones   = 128 32 32 
+
+ Boundary conditions
+   -x: UserBC
+   +x: UserBC
+   -y: SlipWall
+   +y: SlipWall
+   -z: SlipWall
+   +z: SlipWall
+
+
+===============================================================================
+ Species Information
+===============================================================================
+ index                         name              A              Z
+--------------------------------------------------------------------------------
+
+
+===============================================================================
+ Inputs File Parameters
+===============================================================================
+max_step = 10000
+stop_time = 0.2
+geometry.is_periodic = 0 0 0
+geometry.coord_sys = 0
+geometry.prob_lo = 0 0 0
+geometry.prob_hi = 1 0.25 0.25
+amr.n_cell = 32 8 8
+pelec.lo_bc = UserBC SlipWall SlipWall
+pelec.hi_bc = UserBC SlipWall SlipWall
+pelec.do_hydro = 1
+pelec.do_react = 0
+pelec.ppm_type = 1
+pelec.allow_negative_energy = 0
+pelec.cfl = 0.9
+pelec.init_shrink = 0.1
+pelec.change_max = 1.05
+pelec.dt_cutoff = 5.e-20
+pelec.sum_interval = 1
+pelec.v = 1
+amr.v = 1
+amr.max_level = 2
+amr.ref_ratio = 2 2 2 2
+amr.regrid_int = 2 2 2 2
+amr.blocking_factor = 8
+amr.max_grid_size = 64
+amr.n_error_buf = 2 2 2 2
+amr.checkpoint_files_output = 0
+amr.check_file = sod_x_chk
+amr.check_int = 10
+amr.plot_file = sod_x_plt
+amr.plot_int = 40000
+amr.derive_plot_vars = ALL
+amr.probin_file = probin-sod-x
+amr.plot_file = Sod-1_plt
+amr.check_file = Sod-1_chk
+amr.checkpoint_files_output = 0

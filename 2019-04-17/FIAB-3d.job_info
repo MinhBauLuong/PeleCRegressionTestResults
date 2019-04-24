@@ -1,0 +1,117 @@
+===============================================================================
+ PeleC Job Information
+===============================================================================
+job name: 
+
+inputs file: inputs-3d-regt
+
+number of MPI processes: 4
+
+CPU time used since start of simulation (CPU-hours): 0.0356432
+
+===============================================================================
+ Plotfile Information
+===============================================================================
+output data / time: Wed Apr 17 06:02:10 2019
+output dir:         /projects/ecp/combustion/pelec-testing/PeleC-tests/2019-04-17/FIAB-3d
+
+
+===============================================================================
+ Build Information
+===============================================================================
+build date:    2019-04-17 06:01:09.406287
+build machine: Linux rhodes.hpc.nrel.gov 3.10.0-693.17.1.el7.x86_64 #1 SMP Thu Jan 25 20:13:58 UTC 2018 x86_64 x86_64 x86_64 GNU/Linux
+build dir:     /projects/ecp/combustion/pelec-testing/PeleC/Exec/RegTests/PMF
+AMReX dir:     /projects/ecp/combustion/pelec-testing/amrex/
+
+COMP:          g++
+COMP version:  7.3.0
+FCOMP:         
+FCOMP version: 
+
+EOS: /projects/ecp/combustion/pelec-testing/PelePhysics/Eos/Fuego
+REACTIONS: /projects/ecp/combustion/pelec-testing/PelePhysics/Reactions/Fuego
+TRANSPORT: /projects/ecp/combustion/pelec-testing/PelePhysics/Transport
+CHEMISTRY: LiDryer
+
+PeleC       git hash: 9ce5f31
+AMReX       git hash: 19.04.2-171-g8214977df
+PelePhysics git hash: 5ce24f2
+
+
+===============================================================================
+ Grid Information
+===============================================================================
+ level: 0
+   number of boxes = 4
+   maximum zones   = 8 8 128 
+
+ level: 1
+   number of boxes = 5
+   maximum zones   = 16 16 256 
+
+ level: 2
+   number of boxes = 6
+   maximum zones   = 32 32 512 
+
+ Boundary conditions
+   -x: Interior
+   +x: Interior
+   -y: Interior
+   +y: Interior
+   -z: Hard
+   +z: Hard
+
+
+===============================================================================
+ Species Information
+===============================================================================
+ index                         name              A              Z
+--------------------------------------------------------------------------------
+
+
+===============================================================================
+ Inputs File Parameters
+===============================================================================
+stop_time = 6
+max_step = 5
+geometry.is_periodic = 1 1 0
+geometry.coord_sys = 0
+geometry.prob_lo = 0.0 0.0 1.0
+geometry.prob_hi = 0.3125 0.3125 6.0
+amr.n_cell = 8 8 128
+pelec.lo_bc = Interior Interior Hard
+pelec.hi_bc = Interior Interior Hard
+pelec.cfl = 0.1
+pelec.init_shrink = 0.1
+pelec.change_max = 1.1
+pelec.dt_cutoff = 5.e-20
+pelec.sum_interval = 1
+pelec.v = 1
+amr.v = 1
+amr.max_level = 2
+amr.ref_ratio = 2 2 2 2
+amr.regrid_int = 2 2 2 2
+amr.blocking_factor = 8
+amr.max_grid_size = 64
+amr.n_error_buf = 2 8 2 2
+amr.checkpoint_files_output = 1
+amr.check_file = chk
+amr.check_int = 500
+amr.plot_files_output = 1
+amr.plot_file = plt
+amr.plot_int = 10
+amr.probin_file = probin-regt
+amr.derive_plot_vars = density xmom ymom zmom eden Temp pressure x_velocity y_velocity z_velocity
+pelec.plot_rhoy = 0
+pelec.plot_massfrac = 1
+pelec.do_react = 1
+pelec.diffuse_temp = 1
+pelec.diffuse_enth = 1
+pelec.diffuse_spec = 1
+pelec.diffuse_vel = 1
+pelec.sdc_iters = 2
+pelec.flame_trac_name = HO2
+amr.plot_file = FIAB-3d_plt
+amr.check_file = FIAB-3d_chk
+amr.checkpoint_files_output = 0

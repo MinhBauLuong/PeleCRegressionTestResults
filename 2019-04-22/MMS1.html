@@ -1,0 +1,67 @@
+
+<HTML>
+<HEAD>
+<TITLE>2019-04-22 / MMS1</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<LINK REL="stylesheet" TYPE="text/css" HREF="tests.css">
+</HEAD>
+<BODY>
+<div id="box">
+<table style="width: 100%" class="head"><br><tr><td><< <a href="FIAB-3d.html">previous test</td><td class="alignright"><a href="MMS2.html">next test >></td></tr></table>
+<center><h1><a href="index.html">2019-04-22</a> / MMS1</h1></center><ul>
+<li>Build/Test information:
+<ul>
+<li>Build directory: Exec/RegTests/MMS/
+</li>
+<li>Parallel run
+<ul>
+<li>MPI numprocs = 4
+</li></ul></li>
+<li>Files:
+<ul>
+<li>input file: <a href="MMS1.inputs_3d-rt1">inputs_3d-rt1</a>
+</li>
+<li>probin file: <a href="MMS1.probin-rt1">probin-rt1</a>
+</li></ul></li>
+<li>Dimensionality: 3
+</li></ul></li>
+<li>Compilation:
+<ul>
+<li><h3 class="passed">Successful</h3>
+</li>
+<li>Compilation time: 28.415 s
+</li>
+<li>Compilation command:<br><tt>make -j24 AMREX_HOME=/projects/ecp/combustion/pelec-testing/amrex/  DEBUG=FALSE USE_ACC=FALSE USE_MPI=TRUE USE_OMP=FALSE DIM=3   COMP=g++ TEST=TRUE USE_ASSERTION=TRUE </tt>
+</li>
+<li><a href="MMS1.make.out">make output</a>
+</li></ul></li>
+<li>Execution:
+<ul>
+<li>Execution time: 3.755 s
+</li>
+<li>Execution command:<br><tt>mpiexec -n 4 ./PeleC3d.gnu.TEST.MPI.ex inputs_3d-rt1 amr.plot_file=MMS1_plt amr.check_file=MMS1_chk amr.checkpoint_files_output=0  </tt>
+</li>
+<li><a href="MMS1.run.out">execution output</a>
+</li>
+<li><a href="MMS1.err.out">execution stderr</a>
+</li></ul></li>
+<li>Backtraces:
+<ul>
+<li><a href="MMS1.Backtrace.2">MMS1.Backtrace.2</a>
+</li>
+<li><a href="MMS1.Backtrace.0">MMS1.Backtrace.0</a>
+</li>
+<li><a href="MMS1.Backtrace.3">MMS1.Backtrace.3</a>
+</li>
+<li><a href="MMS1.Backtrace.1">MMS1.Backtrace.1</a>
+</li></ul></li>
+<li>Comparison: 
+<ul>
+<li><h3 class="failed">Failed</h3>
+</li></ul></li>
+</ul>
+</table>
+</div>
+</div>
+</div></body>
+</html>

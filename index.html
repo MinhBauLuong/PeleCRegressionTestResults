@@ -1,0 +1,1273 @@
+
+<HTML>
+<HEAD>
+<TITLE>PeleC regression tests</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=ISO-8859-1">
+<LINK REL="stylesheet" TYPE="text/css" HREF="tests.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</HEAD>
+<BODY>
+<a href="../">GO UP</a>
+<CENTER><H1>PeleC regression tests</H1></CENTER>
+<CENTER><H2></H2></CENTER>
+<P><TABLE class='maintable'>
+<CENTER>
+  <td align=center class="benchmade"><h3>Benchmark Updated</h3></td>
+  <td align=center class="failed"><h3>Comparison Failed</h3></td>
+  <td align=center class="compfailed"><h3>Compilation Failed</h3></td>
+  <td align=center class="crashed"><h3>Crashed</h3></td>
+  <td align=center class="passed"><h3>Passed</h3></td>
+  <td align=center class="passed-slowly"><h3>Performance Drop</h3></td>
+</CENTER>
+</TABLE>
+<P><TABLE class='maintable'>
+<TR><TH ALIGN=CENTER>date</TH>
+<TH><div class='verticaltext'>FIAB-2d</div></TH>
+<TH><div class='verticaltext'>FIAB-3d</div></TH>
+<TH><div class='verticaltext'>MMS1</div></TH>
+<TH><div class='verticaltext'>MMS2</div></TH>
+<TH><div class='verticaltext'>MMS4</div></TH>
+<TH><div class='verticaltext'>MMS5</div></TH>
+<TH><div class='verticaltext'>MMS6</div></TH>
+<TH><div class='verticaltext'>MMS7</div></TH>
+<TH><div class='verticaltext'>MMS8</div></TH>
+<TH><div class='verticaltext'>Sod-1</div></TH>
+<TH><div class='verticaltext'>Sod-1d</div></TH>
+<TH><div class='verticaltext'>Sod-2</div></TH>
+<TH><div class='verticaltext'>Sod-2d</div></TH>
+<TH><div class='verticaltext'>Sod-3</div></TH>
+<TH><div class='verticaltext'>Sod_restart</div></TH>
+<TH><div class='verticaltext'>hit-3d-1</div></TH>
+<TH><div class='verticaltext'>hit-3d-2</div></TH>
+<TH><div class='verticaltext'>hit-3d-3</div></TH>
+<TH><div class='verticaltext'>tg-vortex-2d</div></TH>
+<TH><div class='verticaltext'>tg-vortex-3d</div></TH>
+<TH><div class='verticaltext'>tg-vortex-3d-amr</div></TH>
+</TR>
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-04-24/index.html">2019-04-24&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-04-24/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-04-24/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-04-24/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-04-24/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-04-24/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-04-24/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-04-24/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-04-24/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-04-24/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-04-24/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-04-24/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-04-24/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-04-24/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-04-24/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-04-24/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-04-24/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-04-24/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-04-24/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-04-24/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-04-24/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-04-24/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-04-23/index.html">2019-04-23&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-04-23/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-04-23/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-04-23/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-04-23/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-04-23/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-04-23/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-04-23/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-04-23/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-04-23/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-04-23/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-04-23/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-04-23/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-04-23/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-04-23/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-04-23/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-04-23/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-04-23/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-04-23/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-04-23/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-04-23/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-04-23/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-04-22/index.html">2019-04-22&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="crashed"><h3><a href="2019-04-22/FIAB-2d.html" class="crashed">xx</a></h3></td>
+<td align=center title="FIAB-3d" class="crashed"><h3><a href="2019-04-22/FIAB-3d.html" class="crashed">xx</a></h3></td>
+<td align=center title="MMS1" class="crashed"><h3><a href="2019-04-22/MMS1.html" class="crashed">xx</a></h3></td>
+<td align=center title="MMS2" class="crashed"><h3><a href="2019-04-22/MMS2.html" class="crashed">xx</a></h3></td>
+<td align=center title="MMS4" class="crashed"><h3><a href="2019-04-22/MMS4.html" class="crashed">xx</a></h3></td>
+<td align=center title="MMS5" class="crashed"><h3><a href="2019-04-22/MMS5.html" class="crashed">xx</a></h3></td>
+<td align=center title="MMS6" class="crashed"><h3><a href="2019-04-22/MMS6.html" class="crashed">xx</a></h3></td>
+<td align=center title="MMS7" class="crashed"><h3><a href="2019-04-22/MMS7.html" class="crashed">xx</a></h3></td>
+<td align=center title="MMS8" class="crashed"><h3><a href="2019-04-22/MMS8.html" class="crashed">xx</a></h3></td>
+<td align=center title="Sod-1" class="crashed"><h3><a href="2019-04-22/Sod-1.html" class="crashed">xx</a></h3></td>
+<td align=center title="Sod-1d" class="crashed"><h3><a href="2019-04-22/Sod-1d.html" class="crashed">xx</a></h3></td>
+<td align=center title="Sod-2" class="crashed"><h3><a href="2019-04-22/Sod-2.html" class="crashed">xx</a></h3></td>
+<td align=center title="Sod-2d" class="crashed"><h3><a href="2019-04-22/Sod-2d.html" class="crashed">xx</a></h3></td>
+<td align=center title="Sod-3" class="crashed"><h3><a href="2019-04-22/Sod-3.html" class="crashed">xx</a></h3></td>
+<td align=center title="Sod_restart" class="failed"><h3><a href="2019-04-22/Sod_restart.html" class="failed">!&nbsp;</a></h3></td>
+<td align=center title="hit-3d-1" class="crashed"><h3><a href="2019-04-22/hit-3d-1.html" class="crashed">xx</a></h3></td>
+<td align=center title="hit-3d-2" class="crashed"><h3><a href="2019-04-22/hit-3d-2.html" class="crashed">xx</a></h3></td>
+<td align=center title="hit-3d-3" class="crashed"><h3><a href="2019-04-22/hit-3d-3.html" class="crashed">xx</a></h3></td>
+<td align=center title="tg-vortex-2d" class="crashed"><h3><a href="2019-04-22/tg-vortex-2d.html" class="crashed">xx</a></h3></td>
+<td align=center title="tg-vortex-3d" class="crashed"><h3><a href="2019-04-22/tg-vortex-3d.html" class="crashed">xx</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="crashed"><h3><a href="2019-04-22/tg-vortex-3d-amr.html" class="crashed">xx</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-04-21/index.html">2019-04-21&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="crashed"><h3><a href="2019-04-21/FIAB-2d.html" class="crashed">xx</a></h3></td>
+<td align=center title="FIAB-3d" class="crashed"><h3><a href="2019-04-21/FIAB-3d.html" class="crashed">xx</a></h3></td>
+<td align=center title="MMS1" class="crashed"><h3><a href="2019-04-21/MMS1.html" class="crashed">xx</a></h3></td>
+<td align=center title="MMS2" class="crashed"><h3><a href="2019-04-21/MMS2.html" class="crashed">xx</a></h3></td>
+<td align=center title="MMS4" class="crashed"><h3><a href="2019-04-21/MMS4.html" class="crashed">xx</a></h3></td>
+<td align=center title="MMS5" class="crashed"><h3><a href="2019-04-21/MMS5.html" class="crashed">xx</a></h3></td>
+<td align=center title="MMS6" class="crashed"><h3><a href="2019-04-21/MMS6.html" class="crashed">xx</a></h3></td>
+<td align=center title="MMS7" class="crashed"><h3><a href="2019-04-21/MMS7.html" class="crashed">xx</a></h3></td>
+<td align=center title="MMS8" class="crashed"><h3><a href="2019-04-21/MMS8.html" class="crashed">xx</a></h3></td>
+<td align=center title="Sod-1" class="crashed"><h3><a href="2019-04-21/Sod-1.html" class="crashed">xx</a></h3></td>
+<td align=center title="Sod-1d" class="crashed"><h3><a href="2019-04-21/Sod-1d.html" class="crashed">xx</a></h3></td>
+<td align=center title="Sod-2" class="crashed"><h3><a href="2019-04-21/Sod-2.html" class="crashed">xx</a></h3></td>
+<td align=center title="Sod-2d" class="crashed"><h3><a href="2019-04-21/Sod-2d.html" class="crashed">xx</a></h3></td>
+<td align=center title="Sod-3" class="crashed"><h3><a href="2019-04-21/Sod-3.html" class="crashed">xx</a></h3></td>
+<td align=center title="Sod_restart" class="failed"><h3><a href="2019-04-21/Sod_restart.html" class="failed">!&nbsp;</a></h3></td>
+<td align=center title="hit-3d-1" class="crashed"><h3><a href="2019-04-21/hit-3d-1.html" class="crashed">xx</a></h3></td>
+<td align=center title="hit-3d-2" class="crashed"><h3><a href="2019-04-21/hit-3d-2.html" class="crashed">xx</a></h3></td>
+<td align=center title="hit-3d-3" class="crashed"><h3><a href="2019-04-21/hit-3d-3.html" class="crashed">xx</a></h3></td>
+<td align=center title="tg-vortex-2d" class="crashed"><h3><a href="2019-04-21/tg-vortex-2d.html" class="crashed">xx</a></h3></td>
+<td align=center title="tg-vortex-3d" class="crashed"><h3><a href="2019-04-21/tg-vortex-3d.html" class="crashed">xx</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="crashed"><h3><a href="2019-04-21/tg-vortex-3d-amr.html" class="crashed">xx</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-04-20/index.html">2019-04-20&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-04-20/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-04-20/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-04-20/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-04-20/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-04-20/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-04-20/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-04-20/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-04-20/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-04-20/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-04-20/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-04-20/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-04-20/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-04-20/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-04-20/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-04-20/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-04-20/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-04-20/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-04-20/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-04-20/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-04-20/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-04-20/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-04-19/index.html">2019-04-19&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-04-19/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-04-19/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-04-19/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-04-19/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-04-19/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-04-19/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-04-19/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-04-19/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-04-19/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-04-19/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-04-19/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-04-19/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-04-19/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-04-19/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-04-19/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-04-19/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-04-19/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-04-19/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-04-19/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-04-19/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-04-19/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-04-18/index.html">2019-04-18&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-04-18/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-04-18/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-04-18/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-04-18/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-04-18/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-04-18/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-04-18/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-04-18/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-04-18/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-04-18/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-04-18/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-04-18/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-04-18/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-04-18/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-04-18/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-04-18/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-04-18/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-04-18/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-04-18/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-04-18/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-04-18/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-04-17/index.html">2019-04-17&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-04-17/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-04-17/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-04-17/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-04-17/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-04-17/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-04-17/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-04-17/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-04-17/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-04-17/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-04-17/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-04-17/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-04-17/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-04-17/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-04-17/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-04-17/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-04-17/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-04-17/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-04-17/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-04-17/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-04-17/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-04-17/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-04-16/index.html">2019-04-16&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-04-16/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-04-16/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-04-16/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-04-16/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-04-16/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-04-16/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-04-16/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-04-16/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-04-16/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-04-16/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-04-16/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-04-16/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-04-16/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-04-16/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-04-16/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-04-16/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-04-16/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-04-16/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-04-16/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-04-16/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-04-16/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-04-15/index.html">2019-04-15&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-04-15/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-04-15/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-04-15/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-04-15/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-04-15/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-04-15/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-04-15/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-04-15/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-04-15/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-04-15/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-04-15/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-04-15/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-04-15/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-04-15/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-04-15/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-04-15/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-04-15/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-04-15/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-04-15/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-04-15/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-04-15/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-04-14/index.html">2019-04-14&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-04-14/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-04-14/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-04-14/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-04-14/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-04-14/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-04-14/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-04-14/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-04-14/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-04-14/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-04-14/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-04-14/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-04-14/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-04-14/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-04-14/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-04-14/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-04-14/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-04-14/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-04-14/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-04-14/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-04-14/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-04-14/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-04-13/index.html">2019-04-13&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-04-13/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-04-13/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-04-13/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-04-13/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-04-13/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-04-13/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-04-13/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-04-13/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-04-13/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-04-13/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-04-13/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-04-13/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-04-13/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-04-13/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-04-13/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-04-13/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-04-13/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-04-13/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-04-13/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-04-13/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-04-13/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-04-12/index.html">2019-04-12&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-04-12/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-04-12/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-04-12/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-04-12/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-04-12/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-04-12/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-04-12/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-04-12/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-04-12/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-04-12/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-04-12/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-04-12/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-04-12/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-04-12/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-04-12/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-04-12/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-04-12/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-04-12/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-04-12/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-04-12/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-04-12/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-04-11/index.html">2019-04-11&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-04-11/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-04-11/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-04-11/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-04-11/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-04-11/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-04-11/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-04-11/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-04-11/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-04-11/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-04-11/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-04-11/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-04-11/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-04-11/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-04-11/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-04-11/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-04-11/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-04-11/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-04-11/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-04-11/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-04-11/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-04-11/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-04-10/index.html">2019-04-10&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-04-10/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-04-10/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-04-10/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-04-10/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-04-10/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-04-10/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-04-10/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-04-10/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-04-10/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-04-10/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-04-10/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-04-10/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-04-10/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-04-10/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-04-10/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-04-10/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-04-10/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-04-10/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-04-10/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-04-10/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-04-10/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-04-09/index.html">2019-04-09&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-04-09/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-04-09/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-04-09/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-04-09/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-04-09/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-04-09/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-04-09/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-04-09/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-04-09/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-04-09/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-04-09/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-04-09/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-04-09/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-04-09/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-04-09/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-04-09/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-04-09/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-04-09/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-04-09/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-04-09/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-04-09/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-04-08/index.html">2019-04-08&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-04-08/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-04-08/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-04-08/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-04-08/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-04-08/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-04-08/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-04-08/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-04-08/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-04-08/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-04-08/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-04-08/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-04-08/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-04-08/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-04-08/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-04-08/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-04-08/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-04-08/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-04-08/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-04-08/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-04-08/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-04-08/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-04-07/index.html">2019-04-07&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-04-07/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-04-07/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-04-07/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-04-07/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-04-07/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-04-07/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-04-07/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-04-07/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-04-07/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-04-07/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-04-07/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-04-07/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-04-07/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-04-07/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-04-07/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-04-07/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-04-07/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-04-07/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-04-07/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-04-07/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-04-07/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-04-06/index.html">2019-04-06&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-04-06/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-04-06/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-04-06/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-04-06/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-04-06/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-04-06/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-04-06/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-04-06/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-04-06/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-04-06/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-04-06/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-04-06/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-04-06/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-04-06/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-04-06/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-04-06/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-04-06/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-04-06/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-04-06/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-04-06/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-04-06/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-04-05/index.html">2019-04-05&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-04-05/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-04-05/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-04-05/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-04-05/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-04-05/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-04-05/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-04-05/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-04-05/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-04-05/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-04-05/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-04-05/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-04-05/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-04-05/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-04-05/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-04-05/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-04-05/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-04-05/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-04-05/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-04-05/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-04-05/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-04-05/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-04-04/index.html">2019-04-04&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-04-04/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-04-04/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-04-04/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-04-04/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-04-04/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-04-04/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-04-04/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-04-04/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-04-04/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-04-04/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-04-04/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-04-04/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-04-04/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-04-04/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-04-04/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-04-04/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-04-04/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-04-04/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-04-04/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-04-04/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-04-04/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-04-03/index.html">2019-04-03&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-04-03/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-04-03/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-04-03/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-04-03/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-04-03/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-04-03/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-04-03/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-04-03/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-04-03/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-04-03/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-04-03/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-04-03/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-04-03/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-04-03/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-04-03/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-04-03/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-04-03/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-04-03/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-04-03/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-04-03/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-04-03/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-04-02/index.html">2019-04-02&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-04-02/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-04-02/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-04-02/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-04-02/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-04-02/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-04-02/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-04-02/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-04-02/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-04-02/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-04-02/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-04-02/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-04-02/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-04-02/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-04-02/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-04-02/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-04-02/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-04-02/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-04-02/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-04-02/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-04-02/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-04-02/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-04-01/index.html">2019-04-01&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-04-01/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-04-01/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-04-01/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-04-01/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-04-01/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-04-01/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-04-01/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-04-01/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-04-01/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-04-01/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-04-01/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-04-01/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-04-01/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-04-01/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-04-01/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-04-01/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-04-01/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-04-01/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-04-01/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-04-01/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-04-01/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-31/index.html">2019-03-31&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-03-31/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-03-31/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-03-31/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-03-31/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-03-31/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-03-31/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-03-31/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-03-31/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-03-31/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-03-31/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-03-31/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-03-31/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-03-31/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-03-31/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-03-31/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-03-31/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-03-31/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-03-31/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-03-31/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-03-31/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-03-31/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-30/index.html">2019-03-30&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-03-30/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-03-30/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-03-30/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-03-30/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-03-30/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-03-30/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-03-30/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-03-30/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-03-30/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-03-30/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-03-30/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-03-30/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-03-30/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-03-30/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-03-30/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-03-30/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-03-30/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-03-30/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-03-30/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-03-30/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-03-30/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-29/index.html">2019-03-29&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-03-29/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-03-29/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-03-29/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-03-29/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-03-29/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-03-29/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-03-29/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-03-29/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-03-29/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-03-29/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-03-29/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-03-29/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-03-29/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-03-29/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-03-29/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-03-29/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-03-29/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-03-29/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-03-29/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-03-29/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-03-29/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-28/index.html">2019-03-28&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-03-28/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-03-28/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-03-28/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-03-28/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-03-28/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-03-28/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-03-28/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-03-28/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-03-28/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-03-28/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-03-28/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-03-28/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-03-28/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-03-28/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-03-28/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-03-28/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-03-28/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-03-28/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-03-28/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-03-28/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-03-28/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-27/index.html">2019-03-27&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-03-27/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-03-27/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-03-27/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-03-27/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-03-27/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-03-27/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-03-27/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-03-27/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-03-27/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-03-27/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-03-27/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-03-27/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-03-27/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-03-27/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-03-27/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-03-27/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-03-27/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-03-27/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-03-27/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-03-27/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-03-27/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-26/index.html">2019-03-26&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-03-26/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-03-26/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-03-26/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-03-26/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-03-26/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-03-26/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-03-26/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-03-26/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-03-26/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-03-26/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-03-26/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-03-26/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-03-26/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-03-26/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-03-26/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-03-26/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-03-26/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-03-26/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-03-26/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-03-26/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-03-26/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-25/index.html">2019-03-25&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-03-25/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-03-25/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-03-25/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-03-25/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-03-25/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-03-25/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-03-25/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-03-25/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-03-25/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-03-25/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-03-25/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-03-25/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-03-25/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-03-25/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-03-25/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-03-25/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-03-25/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-03-25/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-03-25/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-03-25/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-03-25/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-24/index.html">2019-03-24&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-03-24/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-03-24/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-03-24/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-03-24/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-03-24/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-03-24/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-03-24/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-03-24/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-03-24/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-03-24/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-03-24/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-03-24/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-03-24/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-03-24/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-03-24/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-03-24/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-03-24/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-03-24/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-03-24/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-03-24/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-03-24/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-23/index.html">2019-03-23&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-03-23/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-03-23/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-03-23/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-03-23/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-03-23/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-03-23/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-03-23/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-03-23/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-03-23/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-03-23/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-03-23/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-03-23/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-03-23/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-03-23/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-03-23/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-03-23/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-03-23/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-03-23/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-03-23/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-03-23/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-03-23/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-22/index.html">2019-03-22&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-03-22/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-03-22/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-03-22/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-03-22/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-03-22/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-03-22/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-03-22/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-03-22/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-03-22/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-03-22/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-03-22/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-03-22/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-03-22/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-03-22/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-03-22/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-03-22/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-03-22/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-03-22/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-03-22/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-03-22/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-03-22/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-21/index.html">2019-03-21&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-03-21/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-03-21/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-03-21/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-03-21/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-03-21/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-03-21/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-03-21/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-03-21/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-03-21/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-03-21/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-03-21/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-03-21/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-03-21/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-03-21/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-03-21/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-03-21/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-03-21/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-03-21/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-03-21/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-03-21/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-03-21/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-20-004/index.html">2019-03-20-004&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="benchmade"><h3>U</h3></td>
+<td align=center title="FIAB-3d" class="benchmade"><h3>U</h3></td>
+<td align=center title="MMS1" class="benchmade"><h3>U</h3></td>
+<td align=center title="MMS2" class="benchmade"><h3>U</h3></td>
+<td align=center title="MMS4" class="benchmade"><h3>U</h3></td>
+<td align=center title="MMS5" class="benchmade"><h3>U</h3></td>
+<td align=center title="MMS6" class="benchmade"><h3>U</h3></td>
+<td align=center title="MMS7" class="benchmade"><h3>U</h3></td>
+<td align=center title="MMS8" class="benchmade"><h3>U</h3></td>
+<td align=center title="Sod-1" class="benchmade"><h3>U</h3></td>
+<td align=center title="Sod-1d" class="benchmade"><h3>U</h3></td>
+<td align=center title="Sod-2" class="benchmade"><h3>U</h3></td>
+<td align=center title="Sod-2d" class="benchmade"><h3>U</h3></td>
+<td align=center title="Sod-3" class="benchmade"><h3>U</h3></td>
+<td>&nbsp;</td>
+<td align=center title="hit-3d-1" class="benchmade"><h3>U</h3></td>
+<td align=center title="hit-3d-2" class="benchmade"><h3>U</h3></td>
+<td align=center title="hit-3d-3" class="benchmade"><h3>U</h3></td>
+<td align=center title="tg-vortex-2d" class="benchmade"><h3>U</h3></td>
+<td align=center title="tg-vortex-3d" class="benchmade"><h3>U</h3></td>
+<td align=center title="tg-vortex-3d-amr" class="benchmade"><h3>U</h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-20/index.html">2019-03-20&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-03-20/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-03-20/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-03-20/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-03-20/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-03-20/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-03-20/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-03-20/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-03-20/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-03-20/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-03-20/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-03-20/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-03-20/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-03-20/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-03-20/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-03-20/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-03-20/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-03-20/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-03-20/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-03-20/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-03-20/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-03-20/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-19/index.html">2019-03-19&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-03-19/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-03-19/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-03-19/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-03-19/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-03-19/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-03-19/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-03-19/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-03-19/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-03-19/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-03-19/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-03-19/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-03-19/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-03-19/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-03-19/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-03-19/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-03-19/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-03-19/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-03-19/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-03-19/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-03-19/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-03-19/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-18/index.html">2019-03-18&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-03-18/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-03-18/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-03-18/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-03-18/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-03-18/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-03-18/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-03-18/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-03-18/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-03-18/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-03-18/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-03-18/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-03-18/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-03-18/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-03-18/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-03-18/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-03-18/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-03-18/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-03-18/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-03-18/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-03-18/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-03-18/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-17/index.html">2019-03-17&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-03-17/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-03-17/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-03-17/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-03-17/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-03-17/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-03-17/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-03-17/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-03-17/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-03-17/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-03-17/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-03-17/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-03-17/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-03-17/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-03-17/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-03-17/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-03-17/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-03-17/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-03-17/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-03-17/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-03-17/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-03-17/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-16/index.html">2019-03-16&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-03-16/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-03-16/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-03-16/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-03-16/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-03-16/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-03-16/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-03-16/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-03-16/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-03-16/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-03-16/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-03-16/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-03-16/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-03-16/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-03-16/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-03-16/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-03-16/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-03-16/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-03-16/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-03-16/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-03-16/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-03-16/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-15/index.html">2019-03-15&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-03-15/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-03-15/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-03-15/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-03-15/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-03-15/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-03-15/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-03-15/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-03-15/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-03-15/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-03-15/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-03-15/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-03-15/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-03-15/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-03-15/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-03-15/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-03-15/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-03-15/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-03-15/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-03-15/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-03-15/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-03-15/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-14/index.html">2019-03-14&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-03-14/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-03-14/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-03-14/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-03-14/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-03-14/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-03-14/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-03-14/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-03-14/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-03-14/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-03-14/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-03-14/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-03-14/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-03-14/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-03-14/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-03-14/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-03-14/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-03-14/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-03-14/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-03-14/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-03-14/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-03-14/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-13/index.html">2019-03-13&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-03-13/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-03-13/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-03-13/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-03-13/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-03-13/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-03-13/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="compfailed"><h3><a href="2019-03-13/MMS6.html" class="compfailed">:(</a></h3></td>
+<td align=center title="MMS7" class="compfailed"><h3><a href="2019-03-13/MMS7.html" class="compfailed">:(</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-03-13/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-03-13/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-03-13/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-03-13/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-03-13/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-03-13/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-03-13/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-03-13/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-03-13/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-03-13/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-03-13/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-03-13/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-03-13/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-12/index.html">2019-03-12&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="passed"><h3><a href="2019-03-12/FIAB-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-03-12/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-03-12/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-03-12/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-03-12/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-03-12/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-03-12/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-03-12/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="passed"><h3><a href="2019-03-12/MMS8.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-03-12/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="passed"><h3><a href="2019-03-12/Sod-1d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-03-12/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-03-12/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-03-12/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-03-12/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-03-12/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-03-12/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-03-12/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-03-12/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-03-12/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-03-12/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-11-001/index.html">2019-03-11-001&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="benchmade"><h3>U</h3></td>
+<td align=center title="FIAB-3d" class="benchmade"><h3>U</h3></td>
+<td align=center title="MMS1" class="benchmade"><h3>U</h3></td>
+<td align=center title="MMS2" class="benchmade"><h3>U</h3></td>
+<td align=center title="MMS4" class="benchmade"><h3>U</h3></td>
+<td align=center title="MMS5" class="benchmade"><h3>U</h3></td>
+<td align=center title="MMS6" class="benchmade"><h3>U</h3></td>
+<td align=center title="MMS7" class="benchmade"><h3>U</h3></td>
+<td align=center title="MMS8" class="benchmade"><h3>U</h3></td>
+<td align=center title="Sod-1" class="benchmade"><h3>U</h3></td>
+<td align=center title="Sod-1d" class="benchmade"><h3>U</h3></td>
+<td align=center title="Sod-2" class="benchmade"><h3>U</h3></td>
+<td align=center title="Sod-2d" class="benchmade"><h3>U</h3></td>
+<td align=center title="Sod-3" class="benchmade"><h3>U</h3></td>
+<td>&nbsp;</td>
+<td align=center title="hit-3d-1" class="benchmade"><h3>U</h3></td>
+<td align=center title="hit-3d-2" class="benchmade"><h3>U</h3></td>
+<td align=center title="hit-3d-3" class="benchmade"><h3>U</h3></td>
+<td align=center title="tg-vortex-2d" class="benchmade"><h3>U</h3></td>
+<td align=center title="tg-vortex-3d" class="benchmade"><h3>U</h3></td>
+<td align=center title="tg-vortex-3d-amr" class="benchmade"><h3>U</h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-11/index.html">2019-03-11&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="failed"><h3><a href="2019-03-11/FIAB-2d.html" class="failed">!&nbsp;</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-03-11/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-03-11/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-03-11/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-03-11/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-03-11/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-03-11/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-03-11/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="failed"><h3><a href="2019-03-11/MMS8.html" class="failed">!&nbsp;</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-03-11/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="failed"><h3><a href="2019-03-11/Sod-1d.html" class="failed">!&nbsp;</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-03-11/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-03-11/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-03-11/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-03-11/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-03-11/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-03-11/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-03-11/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-03-11/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-03-11/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-03-11/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-10/index.html">2019-03-10&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="failed"><h3><a href="2019-03-10/FIAB-2d.html" class="failed">!&nbsp;</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-03-10/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-03-10/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-03-10/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-03-10/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-03-10/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-03-10/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-03-10/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="failed"><h3><a href="2019-03-10/MMS8.html" class="failed">!&nbsp;</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-03-10/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="failed"><h3><a href="2019-03-10/Sod-1d.html" class="failed">!&nbsp;</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-03-10/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-03-10/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-03-10/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-03-10/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-03-10/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-03-10/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-03-10/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-03-10/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-03-10/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-03-10/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-09/index.html">2019-03-09&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="failed"><h3><a href="2019-03-09/FIAB-2d.html" class="failed">!&nbsp;</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-03-09/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-03-09/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-03-09/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-03-09/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-03-09/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-03-09/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-03-09/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="failed"><h3><a href="2019-03-09/MMS8.html" class="failed">!&nbsp;</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-03-09/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="failed"><h3><a href="2019-03-09/Sod-1d.html" class="failed">!&nbsp;</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-03-09/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-03-09/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-03-09/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-03-09/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-03-09/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-03-09/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-03-09/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-03-09/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-03-09/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-03-09/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-08/index.html">2019-03-08&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="failed"><h3><a href="2019-03-08/FIAB-2d.html" class="failed">!&nbsp;</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-03-08/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-03-08/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-03-08/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-03-08/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-03-08/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-03-08/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-03-08/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="failed"><h3><a href="2019-03-08/MMS8.html" class="failed">!&nbsp;</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-03-08/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="failed"><h3><a href="2019-03-08/Sod-1d.html" class="failed">!&nbsp;</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-03-08/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-03-08/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-03-08/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-03-08/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-03-08/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-03-08/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-03-08/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-03-08/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-03-08/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-03-08/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+<TR><TD class='date'><SPAN CLASS='nobreak'><A class='main' HREF="2019-03-07/index.html">2019-03-07&nbsp;</A>&lowast;</SPAN></TD>
+<td align=center title="FIAB-2d" class="failed"><h3><a href="2019-03-07/FIAB-2d.html" class="failed">!&nbsp;</a></h3></td>
+<td align=center title="FIAB-3d" class="passed"><h3><a href="2019-03-07/FIAB-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS1" class="passed"><h3><a href="2019-03-07/MMS1.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS2" class="passed"><h3><a href="2019-03-07/MMS2.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS4" class="passed"><h3><a href="2019-03-07/MMS4.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS5" class="passed"><h3><a href="2019-03-07/MMS5.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS6" class="passed"><h3><a href="2019-03-07/MMS6.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS7" class="passed"><h3><a href="2019-03-07/MMS7.html" class="passed">:)</a></h3></td>
+<td align=center title="MMS8" class="failed"><h3><a href="2019-03-07/MMS8.html" class="failed">!&nbsp;</a></h3></td>
+<td align=center title="Sod-1" class="passed"><h3><a href="2019-03-07/Sod-1.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-1d" class="failed"><h3><a href="2019-03-07/Sod-1d.html" class="failed">!&nbsp;</a></h3></td>
+<td align=center title="Sod-2" class="passed"><h3><a href="2019-03-07/Sod-2.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-2d" class="passed"><h3><a href="2019-03-07/Sod-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod-3" class="passed"><h3><a href="2019-03-07/Sod-3.html" class="passed">:)</a></h3></td>
+<td align=center title="Sod_restart" class="passed"><h3><a href="2019-03-07/Sod_restart.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-1" class="passed"><h3><a href="2019-03-07/hit-3d-1.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-2" class="passed"><h3><a href="2019-03-07/hit-3d-2.html" class="passed">:)</a></h3></td>
+<td align=center title="hit-3d-3" class="passed"><h3><a href="2019-03-07/hit-3d-3.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-2d" class="passed"><h3><a href="2019-03-07/tg-vortex-2d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d" class="passed"><h3><a href="2019-03-07/tg-vortex-3d.html" class="passed">:)</a></h3></td>
+<td align=center title="tg-vortex-3d-amr" class="passed"><h3><a href="2019-03-07/tg-vortex-3d-amr.html" class="passed">:)</a></h3></td>
+</TR>
+
+</TABLE>
+</BODY>
+</HTML>
